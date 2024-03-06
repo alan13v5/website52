@@ -1,0 +1,42 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.imgformato1 {
+    display: block;
+    max-width: 20%;
+    height: auto;
+}
+
+.imgformato2 {
+    display: block;
+    margin: 0 auto;
+    max-width: 16%;
+    height: auto;
+}
+
+.imgfotos {
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+    height: auto;
+}
+
+.tablas {
+    width: 100%;
+}
+
+.tablas th, .tablas td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
