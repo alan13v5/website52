@@ -1,0 +1,60 @@
+section{
+    display: flex;
+    background-color: #3c3c3c;
+    padding: 20px;
+    border: 8px dotted white;
+    height: 350px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.f1{
+    border:3px solid white;
+    width: 541px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+    background-color: lig;
+} 
+
+.f2{
+    border:3px solid white;
+    width: 541px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+}  
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+/*El fondo lo saque de esta pagina(solo el diseño del fondo): https://cssgradient.io/ */
+body{
+    
+    background: rgb(173,216,230);
+    background: linear-gradient(236deg, rgba(173,216,230,1) 50%, rgba(0,1,4,1) 50%, rgba(240,128,128,1) 51%);
+}
+/* ------------------------------------------------------------------------ */
+h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    color: goldenrod;
+}
+
+h1{
+    text-align: center;
+}
