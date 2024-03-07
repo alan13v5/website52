@@ -59,3 +59,23 @@ body{
     background-color: #333;
     color: hsl(42, 100%, 46%);
 }
+
+.inicio{
+    display: grid;
+    grid-template-areas: "m d s";
+}
+
+.imginicio {
+    text-align: center;
+}
+.desarrollo {
+    display: flex;
+}
+.texto {
+    flex-grow: 1; 
+    margin-right: 20px; 
+}
+.desarrollo iframe {
+    flex-grow: 1; 
+}
+

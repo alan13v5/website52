@@ -9,3 +9,32 @@ h1{
     color: white;
     padding: 15px;
 }
+nav ul{
+    background-color: tan;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 250px;
+}
+nav li:hover{
+    background-color: black;
+}
+.contenido{
+    display: flexbox;
+    margin: 20px;
+}
+header{
+    text-align: center;
+    background-color:gray;
+    color: cornsilk;
+    padding: 5px;
+}
