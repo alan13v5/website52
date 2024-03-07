@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #B57EDC;
+    color: #FFD1DC;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav{
+    background-color: beige;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+
+.container{
+    margin: 20%;
+}
+
+.section{
+    margin-bottom: 40px;
+}
+
+.section h2{
+    text-align: center;
+    
+}
+
+
+
