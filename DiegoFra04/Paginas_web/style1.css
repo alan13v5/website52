@@ -20,13 +20,13 @@ span{
 
 .header1{
     grid-column: 1 / -1;
-    background-color: crimson;
+    background-color: black;
     text-align: center;
 }
 
 .main1{
     grid-area: m;
-    background-color: lightblue;
+    background-color: bisque;
 }
 
 .aside1{
@@ -49,14 +49,181 @@ span{
 }
 
 .contenedor1{
+    display: flex;
     justify-content: center;     
 }
 
+
+.ps2 {
+    text-align: center;
+}
+
+.bor1{
+    border: 2px dashed black;
+}
+
+
+
 /*historia.html */
 .body2 {
-    background-color:  lightblue;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+
+#section2{
+    display: grid;
+    grid-template-columns: 5.5fr 1fr;
+    gap: 10px;
+    grid-template-rows: auto ;
+    grid-template-areas: "h h"
+                         "m a"      
+                         "f f";
+}
+
+
+.header2{
+    grid-column: 1 / -1;
+    background-color:lightgreen ;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+.main2{
+    grid-area: m;
+    background-color: lightgoldenrodyellow;
+}
+
+.aside2{
+    grid-area: a;
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer2{
+    grid-column: 1 / -1;
+    background-color: lightcoral;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedor2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.p2{
+    border: 3px dashed black;
+
+}
+
+.titulo2{
+    text-align: center;
+}
+
+.vidifra{
+    text-align: center;
+}
+.stro2{
+    text-align: center;
+    color: blue;
+}
+.ta1{
+    border: 2px solid black;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.defini1{
+ 
+    border: 2px dotted black;
+}
+
+.sec2{
+    text-align: center;
 }
 /*goleadores.html */
+
+.body3{
+    background-color: crimson;
+}
+
+#section3{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    grid-template-rows: auto ;
+    grid-template-areas: "h h"
+                         "m a"      
+                         "f f";
+}
+
+
+.header3{
+    grid-column: 1 / -1;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.main3{
+    grid-area: m;
+    background-color: grey;
+    display: flex;
+    padding: 29px;
+}
+
+.aside3{
+    grid-area: a;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer3{
+    grid-column: 1 / -1;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+   
+}
+
+.tabla1{
+    margin: 10px;      
+    
+    
+}
+
+.contenedor3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+table,th,td{
+    padding: 9px;
+}
+
+.parrafo2{
+    margin: 20px;
+
+}
 
 
 /*encuesta.html */
