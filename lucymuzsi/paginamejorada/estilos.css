@@ -1,0 +1,11 @@
+.centrar{
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 196, 127);
+    color: white;
+    padding: 10px;
+}
