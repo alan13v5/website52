@@ -1,0 +1,151 @@
+/* Global */
+body{
+    background-color: #cc9f66;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+}
+.degradado{
+    background: rgba(243,226,199,1);
+    border-radius: 15px;
+}
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 25px;
+}
+dl{
+    font-size: 25px;
+}
+span{
+    font-size: 60px;
+    color: gold;
+}
+pre{
+    display: flex;
+    justify-content: center;
+}
+/* Navegacion Principal */
+.nav-principal{
+    background-color:white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+    align-content: center;
+
+    margin: 10px;
+}
+a{
+    font-size:30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    font-size:30px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+/* Descendientes */
+dl > dt{
+    font-weight: bold;
+}
+/* Listas */
+ul{
+    font-size: 25px;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+}
+ol{
+    font-size: 25px;
+}
+.divisiones{
+    grid-area: d;
+}
+/* Multimedia */
+video[src]{
+    height: 500px;
+    border-radius: 10px;
+    width: 100%;
+}
+img[src]{
+    height: 500px;
+    border-radius: 10px;
+    width: 100%;
+}
+audio[src]{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+.pluma{
+    height: 500px;
+}
+/* Tablas */
+table{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+td{
+    color: white;
+}
+iframe{
+    border-radius: 10px;
+    width: 100%;
+    height: 700px;
+    margin: 5px;
+    padding: 10 0 10 0;
+    display: flex;
+    justify-content: center;
+}
+/* Formulario */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea{
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10;
+}
+input[type]{
+    width: 200px;
+    height: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* Cite */
+cite{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+/* Footer */
+footer{
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
