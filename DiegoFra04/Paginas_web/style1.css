@@ -228,5 +228,70 @@ table,th,td{
 
 /*encuesta.html */
 
+.body4 {
+    background-color: black;
+    border: 2px solid white;
+}
 
+
+#section4{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 10px;
+    grid-template-rows: auto ;
+    grid-template-areas: "h h"
+                         "m a"      
+                         "f f";
+}
+
+
+.header4{
+    grid-column: 1 / -1;
+    background-color:gray ;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+.main4{
+    grid-area: m;
+    background-color: whitesmoke;
+}
+
+.aside4{
+    grid-area: a;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer4{
+    grid-column: 1 / -1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    text-align: center;
+}
+
+.esq1{
+    display: flex;
+    justify-content: end;
+    width: 1220px;
+    height: 70px;
+    margin: 10px;
+    
+}
+
+.pru1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
 /*campeonatos.html */
