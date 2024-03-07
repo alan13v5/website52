@@ -1,0 +1,65 @@
+
+/*index.html*/
+.body1 {
+   background-color:  goldenrod;
+}
+span{
+    color: red;
+}
+
+#section1{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    grid-template-rows: auto ;
+    grid-template-areas: "h h"
+                         "m a"      
+                         "f f";
+}
+
+
+.header1{
+    grid-column: 1 / -1;
+    background-color: crimson;
+    text-align: center;
+}
+
+.main1{
+    grid-area: m;
+    background-color: lightblue;
+}
+
+.aside1{
+    grid-area: a;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer1{
+    grid-column: 1 / -1;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor1{
+    justify-content: center;     
+}
+
+/*historia.html */
+.body2 {
+    background-color:  lightblue;
+}
+/*goleadores.html */
+
+
+/*encuesta.html */
+
+
+/*campeonatos.html */
