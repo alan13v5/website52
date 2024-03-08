@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+header {
+    background-color: grey;
+    color: blanchedalmond;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.red-social {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.red-social h2 {
+    margin-top: 0;
+}
+
+.red-social img {
+    max-width: 100px;
+}
+
+.red-social p {
+    margin-top: 10px;
+}
+
+html{
+    background-color: blanchedalmond;
+}

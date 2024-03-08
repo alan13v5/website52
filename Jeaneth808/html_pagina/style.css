@@ -1,0 +1,57 @@
+.imglogo{
+    width: 150px;
+    margin-left: 500px;
+}
+
+.portada{
+    width: 650px;
+    margin-left: 100px;
+}
+
+.imagenesinicio{
+    width: 250px;
+}
+
+.ImgPrincipal{
+    width: 350px   
+}
+
+
+.secc-1{
+    text-align: center;
+}
+
+.imgcontacto{
+    width: 350px;
+}
+
+.imagenesextra{
+    width: 250px;
+}
+
+/* novedades */
+.nportada{
+    width: 750px;
+}
+
+.nimg2{
+    width: 350px;
+}
+
+.nimg3{
+    width: 455px;
+}
+
+/* pasteles */
+.pastel1{
+    width: 250px;
+}
+
+/* diseño */
+body{
+    background-color: rgba(245, 167, 228, 0.541);
+}
+
+
+
+
