@@ -1,0 +1,34 @@
+body{
+    background-color: #6B728E;
+}
+.evidencias{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px; 
+}
+.evidencia h2{
+    display: flex;
+    justify-content: center;
+}
+.evidencia{
+    background-color: #8b43bf;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: #58078b;
+    background-color: #18122B;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    background-color: #9284c1;
+    width: 100px;
+    height: 100%;
+}
