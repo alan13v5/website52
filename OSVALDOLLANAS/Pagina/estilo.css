@@ -33,6 +33,23 @@ pre{
     display: flex;
     justify-content: center;
 }
+/* Grid */
+.area-grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: "d c";
+    gap: 10px;
+}
+.divisiones{
+    grid-area: d;
+    background-color: #F6FA7E;
+    border-radius: 10px;
+}
+.campeones{
+    grid-area: c;
+    background-color: #7E94FA;
+    border-radius: 10px;
+}
 /* Navegacion Principal */
 .nav-principal{
     background-color:white;
@@ -40,9 +57,7 @@ pre{
 nav{
     display: flex;
     justify-content: space-around;
-    
     align-content: center;
-
     margin: 10px;
 }
 a{
@@ -59,6 +74,7 @@ a:hover{
     background-color: black;
     color: white;
     text-decoration: none;
+    border-radius: 5px;
 }
 /* Descendientes */
 dl > dt{
