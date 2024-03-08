@@ -11,7 +11,7 @@ nav {
     background-color: blanchedalmond;
     padding: 10px 0;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 nav a {
     color: grey;
@@ -22,9 +22,22 @@ nav a {
     transition: background-color 0.3s ease;
 }
 
+#noticias,#resena {
+
+    text-align: center;
+}
+
+#resena{
+
+    text-align: end;
+}
+#descuentos{
 
 
+text-align: center;
 
+
+}
 
 h2 {
     font-size: 24px;
