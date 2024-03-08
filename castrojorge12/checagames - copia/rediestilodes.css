@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+header {
+    background-color: grey;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.producto {
+    width: 45%;
+    border: 1px solid blanchedalmond;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.enlace {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.enlace a {
+    display: block;
+    color: grey;
+    background-color: blanchedalmond;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.enlace a:hover {
+    background-color: gray;
+}
+
+
+html{
+    background-color: blanchedalmond;
+
+}
