@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8B0000;
+  }
+
+h1 {
+   text-align: center;
+}
+
+h3 {
+   text-align: center;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+  }
+
+nav ul li {
+    background-color: black;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+nav ul li a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+  }
+  
+nav ul li a:hover {
+  border-bottom: 2px solid white;
+  }
+
+p {
+    text-align: justify;
+    color: black;
+    font-size: 18px;
+  }
+
+.imagen {
+    text-align: center;
+  }
+
+.imagen img {
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 25%;
+    margin: 0 5px;
+    vertical-align: top;
+  }
+
+.albums {
+    text-align: center;   
+}
+
+.albums img {
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 12%;
+    margin: 0 5px;
+    vertical-align: top;
+}
+
+.recop {
+    text-align: center;
+}
+
+.recop img {
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 12%;
+    margin: 0 5px;
+    vertical-align: top;
+}
+
+.lights {
+   text-align: center;
+}
+
+.lights img {
+  border-radius: 5px;
+  display: inline-block;
+  max-width: 25%;
+  margin: 0 5px;
+  vertical-align: top;
+}
+
+.tabla {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 2px solid #333;
+  }
+  
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: justify;
+  }
+  
+th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+.discos img {
+    display: inline-block;
+    max-width: 95%;
+    margin: 0 5px;
+    vertical-align: top;
+  }
+
+.tour {
+    text-align: center;
+}
+
+.tour img {
+    max-width: 45%;
+}
+
+.etapas {
+   text-align: center;
+}
+
+.etapas img {
+  border-radius: 5px;
+  display: inline-block;
+  max-width: 30%;
+  margin: 0 5px;
+  vertical-align: top;
+}
+
+.lista {
+  list-style-type: none;
+  counter-reset: item;
+  padding-left: 0;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.lista li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.lista li:before {
+  content: counter(item) ".";
+  counter-increment: item;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
+}
+
+.video {
+  width: 400px; 
+  margin: 0 auto;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.desordenada {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.desordenada li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.desordenada li:before {
+  content: "\2022";
+  font-weight: bold;
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
+}
