@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.imagen-redondeada {
+    text-align: left;
+}
+
+.imagen-redondeada img {
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+    overflow: hidden; 
+}
+
+.noticia {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.texto-izquierda, .texto-derecha {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.texto-derecha{
+
+    text-align: right;
+}
+
+.videoizq {
+    margin-top: 20px;
+}
+
+.videoderecha{
+    text-align: right;
+
+}
+
+html{
+    background-color: blanchedalmond;
+}
+
+header {
+    background-color: grey;
+    color: blanchedalmond;
+    padding: 20px 0;
+    text-align: center;
+}

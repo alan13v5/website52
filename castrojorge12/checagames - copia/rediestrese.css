@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+header {
+    background-color: gray;
+    color: blanchedalmond;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.resena {
+    width: 45%;
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.izquierda {
+    float: left;
+}
+
+.derecha {
+    float: right;
+}
+
+.contenido h2 {
+    margin-top: 0;
+}
+
+.enlace {
+    margin-top: 20px;
+}
+
+.enlace a {
+    display: block;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: grey;
+    padding: 10px;
+}
+
+.enlace a:hover {
+    background-color: wheat;
+}
+html{
+    background-color: blanchedalmond;
+}
+
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+

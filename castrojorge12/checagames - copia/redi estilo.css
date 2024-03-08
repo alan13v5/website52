@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: grey;
+    color: blanchedalmond;
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    background-color: blanchedalmond;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: space-around;
+}
+nav a {
+    color: grey;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#noticias,#resena {
+
+    text-align: center;
+}
+
+#resena{
+
+    text-align: end;
+}
+#descuentos{
+
+
+text-align: center;
+
+
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+html{
+    background-color: blanchedalmond;
+
+}
+
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- encabezado -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="evolucion.html">Evolucion</a></li>
+                <li><a href="generos.html">Generos</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- contenido -->
+    <main>
+        <pre>
+                               __________ .__                                       .__     .___        
+                               \______   \|__|  ____    ____ ___  __  ____    ____  |__|  __| _/ ____   
+                                |    |  _/|  |_/ __ \  /    \\  \/ /_/ __ \  /    \ |  | / __ | /  _ \  
+                                |    |   \|  |\  ___/ |   |  \\   / \  ___/ |   |  \|  |/ /_/ |(  <_> ) 
+                                |______  /|__| \___  >|___|  / \_/   \___ > |___|  /|__|\____ | \____/  
+                                       \/          \/      \/            \/      \/          \/         
+        </pre>
+        <div class="frase">
+            <p>¡La vida es como un juego<sup>🎮</sup>, cada día es una nueva partida!<br>
+            <small>Disfruta de las pequeñas victorias y no subestimes el poder de los <sub>momentos épicos</sub>.</small></p>
+        </div>
+        <form action="">
+            <h1>Comparte tu Experiencia con los Videojuegos</h1>
+            <section>
+                <h2>Configuración y Preferencias de Perfil</h2>
+                <label for="textInput">Nombre de Usuario:</label>
+                <input type="text" id="textInput" name="text" value=""><br>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" value=""><br>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" value=""><br>
+                <label for="numeroSuerte">Número de la Suerte:</label>
+                <input type="number" id="numeroSuerte" name="numeroSuerte" value=""><br>
+                <label for="telefono">Número de Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" value=""><br>
+                <label for="colorFavorito">Color Favorito:</label>
+                <input type="color" id="colorFavorito" name="colorFavorito"><br>
+                <label>Sexo:</label>
+                <label for="hombre" style="display: inline;">Hombre</label>
+                <input type="radio" id="hombre" name="sexo" value="hombre"><br>
+                <label for="mujer" style="display: inline;">Mujer</label>
+                <input type="radio" id="mujer" name="sexo" value="mujer">
+            </section>
+    
+            <section>
+                <h3>Acerca de Ti</h3>
+                <label for="generoJuego">Género de Juego Favorito:</label>
+                <select id="generoJuego" name="generoJuego">
+                    <option value="Mundo Abierto">Mundo Abierto</option>
+                    <option value="Acción">Acción</option>
+                    <option value="Terror">Terror</option>
+                    <option value="Shooter">Shooter</option>
+                    <option value="MMO">MMO</option>
+                    <option value="Aventura">Aventura</option>
+                    <option value="Plataformas">Plataformas</option>
+                    <option value="Arcade">Arcade</option>
+                    <option value="Simulación">Simulación</option>
+                    <option value="Mini Juegos">Mini Juegos</option>
+                </select><br>
+                <label for="plataformaPreferida">Plataforma Preferida:</label>
+                <select id="plataformaPreferida" name="plataformaPreferida" multiple>
+                    <option value="pc">PC</option>
+                    <option value="movil">Móvil</option>
+                    <option value="portatil">Portátil</option>
+                    <option value="portatil">Consola</option>
+                </select><br>
+                <label for="frecuenciaJuego">Frecuencia de Juego:</label>
+                <select id="frecuenciaJuego" name="frecuenciaJuego">
+                    <optgroup label="Frecuencia">
+                        <option value="diaria">Diaria</option>
+                        <option value="semanal">Semanal</option>
+                        <option value="ocasional">Ocasional</option>
+                    </optgroup>
+                </select><br>
+                <label for="dificultadJuego">Preferencia de Dificultad:</label>
+                <input type="range" id="dificultadJuego" name="dificultadJuego" min="1" max="10"><br>
+                <label for="tiempoJuego">Tiempo de Juego Invertido:</label>
+                <input type="checkbox" id="tiempo1a2" name="tiempoJuego" value="1-2 horas">
+                <label for="tiempo1a2" style="display: inline;">1 a 2 horas</label>
+                <input type="checkbox" id="tiempo4a6" name="tiempoJuego" value="4-6 horas">
+                <label for="tiempo4a6" style="display: inline;">4 a 6 horas</label>
+                <input type="checkbox" id="tiempo7mas" name="tiempoJuego" value="7 o más horas">
+                <label for="tiempo7mas" style="display: inline;">7 o más horas</label><br>
+            </section>
+            
+            <section>
+                <h4>Zona horaria</h4>
+                <label for="week">Semana actual:</label>
+                <input type="week" id="week" name="week" value="2024-W07"><br>
+                <label for="month">Mes actual:</label>
+                <input type="month" id="month" name="month" value="2024-02"><br>
+                <label for="date">Fecha actual:</label>
+                <input type="date" id="date" name="date" value="2024-02-17"><br>
+                <label for="datetime">Fecha y hora actual:</label>
+                <input type="datetime" id="datetime" name="datetime" value="2024-02-17T12:00:00"><br>
+                <label for="datetime-local">Fecha y hora local actual:</label>
+                <input type="datetime-local" id="datetime-local" name="datetime-local" value="2024-02-17T12:00"><br>
+                <label for="time">Hora actual:</label>
+                <input type="time" id="time" name="time" value="12:00"><br>
+            </section>
+            
+            <section>
+                <h5>Material que deseas compartirnos</h5>
+                <label for="file">Archivo:</label>
+                <input type="file" id="file" name="file"><br>
+                <label for="hidden">Valor Oculto:</label>
+                <input type="hidden" id="hidden" name="hidden" value="Hidden value"><br>
+                <label for="search">Término de Búsqueda:</label>
+                <input type="search" id="search" name="search" value="Search term"><br>
+                <label for="url">URL:</label>
+                <input type="url" id="url" name="url" value="https://www.example.com"><br>
+                <label for="textarea">Comentarios o Material Adicional:</label>
+                <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br>
+                <label for="image">Imagen para Botón de Envío:</label>
+                <input type="image" id="image" src="img/img4.jpg" alt="Submit button image" width="60px" height="60px">
+            </section>
+            
+            <section>
+                <br>
+                <button type="button" onclick="">Ver Políticas de Privacidad</button><br>
+                <input type="submit" value="Enviar"><br>
+                <input type="reset" value="Restablecer"><br>
+                <h6>Toda tu informacion es condifencial y no sera compartida por terceros</h6>
+            </section>
+        </form>
+    </main>
+    <!-- pie de pagina -->
+    <footer>
+        <p>&copy; 2024. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
