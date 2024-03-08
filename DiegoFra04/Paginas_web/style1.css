@@ -1,7 +1,8 @@
 
 /*index.html*/
 .body1 {
-   background-color:  goldenrod;
+   background-color:  black;
+   border: 2px solid white;
 }
 span{
     color: red;
@@ -20,18 +21,18 @@ span{
 
 .header1{
     grid-column: 1 / -1;
-    background-color: crimson;
+    background-color: gray;
     text-align: center;
 }
 
 .main1{
     grid-area: m;
-    background-color: lightblue;
+    background-color: whitesmoke;
 }
 
 .aside1{
     grid-area: a;
-    background-color: lightgrey;
+    background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,8 +41,8 @@ span{
 
 .footer1{
     grid-column: 1 / -1;
-    background-color: blue;
-    color: aliceblue;
+    background-color: black;
+    color: white;
     text-align: center;
     display: flex;
     align-items: center;
@@ -49,17 +50,308 @@ span{
 }
 
 .contenedor1{
+    display: flex;
     justify-content: center;     
 }
 
+
+.ps2 {
+    text-align: center;
+}
+
+.bor1{
+    border: 2px dashed black;
+}
+
+
+
 /*historia.html */
 .body2 {
-    background-color:  lightblue;
+    background-color: black;
+    border: 2px solid white
+}
+
+
+#section2{
+    display: grid;
+    grid-template-columns: 5.5fr 1fr;
+    gap: 10px;
+    grid-template-rows: auto ;
+    grid-template-areas: "h h"
+                         "m a"      
+                         "f f";
+}
+
+
+.header2{
+    grid-column: 1 / -1;
+    background-color:gray ;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+.main2{
+    grid-area: m;
+    background-color: whitesmoke;
+}
+
+.aside2{
+    grid-area: a;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer2{
+    grid-column: 1 / -1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenedor2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.p2{
+    border: 3px dashed black;
+
+}
+
+.titulo2{
+    text-align: center;
+}
+
+.vidifra{
+    text-align: center;
+}
+.stro2{
+    text-align: center;
+    color: blue;
+}
+.ta1{
+    border: 2px solid black;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.defini1{
+ 
+    border: 2px dotted black;
+}
+
+.sec2{
+    text-align: center;
 }
 /*goleadores.html */
+
+.body3{
+    background-color: crimson;
+}
+
+#section3{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    grid-template-rows: auto ;
+    grid-template-areas: "h h"
+                         "m a"      
+                         "f f";
+}
+
+
+.header3{
+    grid-column: 1 / -1;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+.main3{
+    grid-area: m;
+    background-color: grey;
+    display: flex;
+    padding: 29px;
+}
+
+.aside3{
+    grid-area: a;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer3{
+    grid-column: 1 / -1;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+   
+}
+
+.tabla1{
+    margin: 10px;      
+    
+    
+}
+
+.contenedor3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+table,th,td{
+    padding: 9px;
+}
+
+.parrafo2{
+    margin: 20px;
+
+}
 
 
 /*encuesta.html */
 
+.body4 {
+    background-color: black;
+    border: 2px solid white;
+}
 
+
+#section4{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 10px;
+    grid-template-rows: auto ;
+    grid-template-areas: "h h"
+                         "m a"      
+                         "f f";
+}
+
+
+.header4{
+    grid-column: 1 / -1;
+    background-color:gray ;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+.main4{
+    grid-area: m;
+    background-color: whitesmoke;
+}
+
+.aside4{
+    grid-area: a;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer4{
+    grid-column: 1 / -1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    text-align: center;
+}
+
+.esq1{
+    display: flex;
+    justify-content: end;
+    width: 1220px;
+    height: 70px;
+    margin: 10px;
+    
+}
+
+.pru1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
 /*campeonatos.html */
+
+.body5 {
+    background-color: black;
+    border: 2px solid white;
+}
+
+
+#section5{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+    grid-template-rows: auto ;
+    grid-template-areas: "h h"
+                         "m a"      
+                         "f f";
+}
+
+
+.header5{
+    grid-column: 1 / -1;
+    background-color:gray;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+.main5{
+    grid-area: m;
+    background-color: whitesmoke;
+}
+
+.aside5{
+    grid-area: a;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer5{
+    grid-column: 1 / -1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.vid1{
+    display: flex;
+    border: 5px solid black;
+    align-items: center;
+}
+.c1{
+    color: goldenrod;
+}
