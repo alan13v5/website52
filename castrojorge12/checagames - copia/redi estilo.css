@@ -11,7 +11,7 @@ nav {
     background-color: blanchedalmond;
     padding: 10px 0;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 nav a {
     color: grey;
@@ -22,14 +22,46 @@ nav a {
     transition: background-color 0.3s ease;
 }
 
+#movimiento {
+    animation: movimiento 5s linear infinite; 
+  }
+  
+  @keyframes movimiento {
+    0% {
+      transform: translateX(0); 
+    }
+    50% {
+      transform: translateX(100px); 
+    }
+    100% {
+      transform: translateX(0); 
+    }
+  }
+  
 
 
+#noticias,#resena {
 
+    text-align: center;
+}
+
+#resena{
+
+    text-align: end;
+}
+#descuentos{
+
+
+text-align: center;
+
+
+}
 
 h2 {
     font-size: 24px;
     margin-bottom: 10px;
     color: grey;
+    justify-content: space-around;
 }
 
 .img {
