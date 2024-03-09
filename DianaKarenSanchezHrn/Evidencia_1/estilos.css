@@ -1,0 +1,32 @@
+.imagen {
+    width: 300;
+    height: 200px;
+  }
+
+* {
+  background-color: #D0FAFF ;
+  color: #31A8FF;
+}
+
+h1 {
+  color: #0B81FF;
+}
+
+h2 {
+  color: #0B81FF;
+}
+
+h3 {
+  color: #0B81FF;
+}
+
+h4 {
+  color: #0B81FF;
+}
+
+li {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
