@@ -5,14 +5,14 @@
 }
 
 .pm-1 {
-    width:300px; 
-    height:400px;
+    width:200px; 
+    height:300px;
     margin-right: 10px;
 }
 
 .pm-2 {
-    width:300px; 
-    height:400px;
+    width:200px; 
+    height:300px;
     margin-left: 10px;
 }
 
@@ -135,4 +135,26 @@ h2.tsinopsisd {
 
 .regresar a:hover {
     background-color: #000000;
+}
+
+h1.tpm {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px;
+}
+
+h2.tsinopsispm {
+    background-color: #2f4550;
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.infopm {
+    float: left;
+    width: 60%;
+    padding-right: 20px; 
 }
