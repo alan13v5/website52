@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: blanchedalmond;
+    display: grid;
+    grid-template-areas: 'header' 'main' 'footer';
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
 }
 
 header {
@@ -8,6 +12,7 @@ header {
     color: blanchedalmond;
     padding: 20px 0;
     text-align: center;
+    
 }
 
 
@@ -17,6 +22,7 @@ section{
 
     display: flex;
     justify-content: center ;
+    
 }
 
 .titulo {
@@ -28,6 +34,7 @@ section{
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 20px;
+   
     
 }
 
@@ -37,13 +44,16 @@ section{
 }
 
 .red-social img {
-    max-width: 100px;
+    max-width: 100px;   
     
 }
 
 .red-social p {
     margin-top: 10px;
 }
+
+
+
 
 html{
     background-color: blanchedalmond;
