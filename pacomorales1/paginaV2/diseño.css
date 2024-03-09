@@ -63,10 +63,14 @@ footer{
     text-align: center;
 }
 
+.encuesta{
+    text-align: center;
+}
+
 .formulario{
-    margin-top: 10px;
     background-color: rgb(255, 255, 255);
-    padding: 15px;
+    padding: 5px;
+    margin-top: 15px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -75,12 +79,7 @@ footer{
     text-align: center;
 }
 
-.tabla{
-    align-items: center;
-    width: 100%;
-    background-color: orange;
-    border: 1px solid black;
-    border-spacing: 10px;
-    border-collapse: collapse;
+.imagenes{
+    border-radius: 10px;
 }
 
