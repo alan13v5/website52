@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #432a9e;
+}
+
+.texto{
+    font-size: 25px;
+}
+.sg{
+    color: rgb(53, 27, 201);
+}
+
+span{
+    color: #0ee07e;
+}
+
+.nbar{
+    height: 110%;
+    width: 250px;
+    background-color: #000000;
+    float: left;
+    border-radius: 7px;
+    box-shadow: 0 0 50px #e00606;
+}
+
+.nbar li{
+    position: relative;
+    height: 29px;
+    list-style: none;
+    margin-top: 6px;
+}
+
+.nbar li a{
+    font-size: 15px;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.nbar li a:hover{
+    background-color: #f10707;
+    transition: ease-in .1s;
+    font-size: 17px;
+    box-shadow: 0 0 5px #ff0101,
+                0 0 15px #01c38d,
+                0 0 25px #01c38d,
+                0 0 5px #01c38d
+}
+
+.phead .h{
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    text-align: justify;
+    color: white; 
+}
+
+.phead .h2{
+    color: #01c38d;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    font-size: 50px;
+    width: 960px;
+}
+
+.phead .p1 {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    text-align: justify;
+    color: rgb(255, 255, 255); 
+    align-items: center;
+
+}
+.phead .h3{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(255, 246, 246); 
+}
+.phead .p2{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: justify;
+    color: #01c38d; 
+
+}

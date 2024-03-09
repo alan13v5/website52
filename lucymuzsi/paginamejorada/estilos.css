@@ -1,3 +1,32 @@
 .centrar{
     text-align: center;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #efb261;
+    color: white;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+header{
+    background-color: #c78023;
+    border: 3px solid black;
+}
+
+.espacio{
+    display: grid;
+    display: flex;
+    grid-template-columns: 100px 100px;
+}
+
+body{
+    background-color: #e7a359;
+}
+
+img{
+    border-radius: 10px;
+}
+

@@ -1,0 +1,27 @@
+h1 {
+    background-color: gray;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.649);
+}
+
+#imagen {
+    border: 5px solid black;
+    color: peru;
+}
+
+p:hover {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.gris{
+    background-color: gray;
+}
+
+#relevante {
+    background-color: gold;
+}
+
+ul li:nth-child(3) {
+    background-color: crimson;
+}

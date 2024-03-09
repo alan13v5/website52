@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    animation: colorChange 7.1s infinite alternate;
+}
+
+.ev1 {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #593365;
+    text-align: center;
+}
+
+h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@keyframes colorChange {
+    0% {
+        color: rgb(255, 0, 0); /* Rojo */
+    }
+    25% {
+        color: rgb(0, 255, 0); /* Verde */
+    }
+    50% {
+        color: rgb(0, 0, 255); /* Azul */
+    }
+    75% {
+        color: rgb(157, 0, 255); /* Amarillo */
+    }
+    100% {
+        color: rgb(255, 0, 255); /* Magenta */
+    }
+}
+
