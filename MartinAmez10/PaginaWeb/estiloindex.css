@@ -1,0 +1,115 @@
+#titulomayor {
+    font-size: 80px;
+    color: white;
+    background-color: red;
+    border: 15px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+
+body {
+    background-color: greenyellow;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    height: 50vh;
+    width: 100%;
+}
+
+#pimportante {
+    color: red;
+    background-color: aqua;
+    text-align: center;
+    border: 2px solid blue;
+    font-size: 25px;
+}
+
+#himportante {
+    color: purple;
+    background-color: peru;
+    text-align: center;
+    border: 5px solid blue;
+    font-size: 25px;
+}
+
+#peleccion {
+    text-align: center;
+    background-color: pink;
+    color: white;
+    border: 8px solid cyan;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    flex: 1;
+}
+
+#america a {
+    background-color: yellow;
+    border: 5px solid blue;
+    color: black;
+    font-size: 30px;
+}
+
+#rayados a {
+    background-color: white;
+    border: 5px solid blue;
+    color: black;
+    font-size: 30px;
+}
+
+#tigres a {
+    background-color: blue;
+    border: 5px solid yellow;
+    color: white;
+    font-size: 30px;
+}
+
+#mejorclub a {
+    background-color: black;
+    border: 5px solid white;
+    color: white;
+    font-size: 25px;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#pfooter {
+    color: goldenrod;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 15px;
+}
