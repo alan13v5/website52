@@ -24,9 +24,7 @@ h4 {
   color: #0B81FF;
 }
 
-li {
+header {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: auto;
 }
-
