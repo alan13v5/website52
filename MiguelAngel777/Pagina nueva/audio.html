@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audios</title>
+    <link rel="stylesheet" href="audio.css">
+    <div class="progress"></div>
+
+<style>
+  @keyframes go-left-right {        /* dale un nombre: "go-left-right" */
+    from { left: 0px; }             /* animar desde la izquierda: 0px */
+    to { left: calc(100% - 50px); } /* animar a la izquierda: 100%-50px */
+  }
+
+  .progress {
+    animation: go-left-right 3s infinite alternate;
+    /* aplicar la animación "go-left-right" al elemento
+       duración 3 segundos
+       número de veces: infinitas
+       alternar la dirección cada vez
+    */
+
+    position: relative;
+    border: 2px solid green;
+    width: 50px;
+    height: 20px;
+    background: lime;
+  }
+</style>
 </head>
 <body>
+     
     <p>Explosion</p>
     <audio controls>
         <source src="explosion.mp3" type="audio/mpeg">
