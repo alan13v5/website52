@@ -1,0 +1,84 @@
+/* INDEX */
+.titulo{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 3em;
+}
+
+h1,h2{
+    color: blue;
+} 
+
+nav {
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(18, 144, 223);
+}
+
+blockquote{
+    border: 1px solid black;
+}
+
+/* GENEROS */
+dt {
+    color: red;
+}
+
+/* MASGANADORAS */
+td{
+    border: 2px solid;
+    background-color: bisque;
+}
+
+th{
+    border: 2px solid;
+    background-color: gold;
+}
+/* TOP */
+body{
+    background-color: whitesmoke;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+}
+
+li p{
+    margin: 0;
+}
+
+/* STREAMING */
+.estilogrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "header header"
+                         "main aside";
+    grid-template-rows: auto;                     
+}
+
+header{
+    grid-area: header;
+    background-color: green;
+    text-align: center;
+    color: black;
+    border: 2px solid;
+
+}
+main{
+    grid-area: main;
+    padding: 20px;    
+}
+aside{
+    grid-area: aside;
+    padding: 20px;
+    background-color: yellowgreen;
+    border: 2px solid;
+}
