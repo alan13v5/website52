@@ -137,6 +137,12 @@ h2.tsinopsisd {
     background-color: #000000;
 }
 
+h1.tpm,
+h2.tsinopsispm {
+    margin: 1px;
+    padding: 0;
+}
+
 h1.tpm {
     text-align: center;
     background-color: #000000;
@@ -157,4 +163,37 @@ h2.tsinopsispm {
     float: left;
     width: 60%;
     padding-right: 20px; 
+}
+
+h1.ts,
+h2.ss {
+    margin: 1px;
+    padding: 0;
+}
+
+h1.ts {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px;
+}
+
+h2.ss {
+    background-color: #2f4550;
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.infos {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+
+h3.tv {
+    margin-top: 20px;
+    color:#2f4550; 
 }
