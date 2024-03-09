@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club America</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estiloamerica.css">
 </head>
 <body>
     <header>
         <h1 id="titulomayor">Equipos Relevantes de la Liga MX</h1>
         <nav>
             <ul>
-                <li><a href="#america">Club America</a></li>
-                <li><a href="rayados.html">CF Monterrey</a></li>
-                <li><a href="tigres.html">Tigres UANL</a></li>
-                <li><a href="mejorclub.html">El mejor club del mundo 🔥🔥🔥</a></li>
+                <li id="america"><a href="america.html">Club America</a></li>
+                <li id="rayados"><a href="rayados.html">CF Monterrey</a></li>
+                <li id="tigres"><a href="tigres.html">Tigres UANL</a></li>
+                <li id="mejorclub"><a href="mejorclub.html">El mejor club del mundo 🔥🔥🔥</a></li>
             </ul>
-        </nav>
+        </nav>  
     </header>
 
     <main>
         <article id="america">
             <h2 id="americaa">Club America</h2>
-            <img src="material/imagenes/img1.png" alt="Club de Futbol America">
+            <img src="material/imagenes/img1.jpg" alt="Club de Futbol America">
             <audio src="material/audio/audio1himno.mp3" controls></audio>
             <p>El Club de Fútbol América S. A. de C. V. es un equipo de fútbol profesional de la Primera División de México. Fue fundado el 12 de octubre de 1916 en la Ciudad de México por un grupo de estudiantes encabezados por el jugador Rafael Garza Gutiérrez y el profesor y entrenador Eugenio Cenoz. Disputa sus partidos como local en el Estadio Azteca, y los colores tradicionales del uniforme americanista son el amarillo y el azul.</p>
             <p>Es la institución con el mayor número de campeonatos en todo tipo de competencias oficiales entre los clubes del fútbol mexicano, sumando un total de 36 (26 nacionales y 10 internacionales).</p>
@@ -31,7 +31,7 @@
                 
             <blockquote>
                 <p>“La grandeza de un club no se mide por sus victorias, sino por la pasión de sus seguidores.”</p>
-                <footer>– Anónimo</footer>
+                <footer>-Anónimo</footer>
             </blockquote>
             
             <section>
@@ -55,7 +55,8 @@
             <section>
                 <h4 id="americaa">Compromiso más reciente</h4>
                 <p>A la fecha de realizar esta página, el video de a continuación presenta el más reciente compromiso del Club America en la Liga MX:</p>
-                <iframe width="930" height="523" src="https://www.youtube.com/embed/FdhUukjjP6M" title="¡Los Tuzos fueron los valientes! Pachuca le quita el invicto al América | Liga MX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="90%" height="523" src="https://www.youtube.com/embed/FdhUukjjP6M" title="¡Los Tuzos fueron los valientes! Pachuca le quita el invicto al América | Liga MX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p><b>Perdio el mas grande 😭😭😭 (no pasa nada, era Papachuca, con ellos cualquiera 😪)</b></p>
             </section>
             <section>
                 <h5 id="americaa">Estadísticas recientes</h5>
@@ -92,12 +93,15 @@
     <footer>
         <address>
             <p>Información de contacto:</p>
-            <p>Martin Amezquita<br> martin041023@gmail.com<br> 8121576016</p>
+            <p>Nombre: Martin Amezquita<br> Correo: martin041023@gmail.com<br> Telefono: 8121576016</p>
         </address>
         <p>&copy; 2024 Liga MX</p>
     </footer>
+    <p>¡Registrate para recibir mas noticias!</p>
     <form action="">
-        <label for="">Nombre:</label>
+        <label for="nombre">Nombre:</label>
         <input type="text" name="Nombre" id="nombre">
-        <label for="">Teléfono:</label>
-        <input type="number" name="Telefono
+        <label for="telefono">Teléfono:</label>
+        <input type="number" name="Telefono" id="telefono">
+        <button type="submit">Enviar</button>
+    </form>    
