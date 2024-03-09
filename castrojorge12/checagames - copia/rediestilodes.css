@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: blanchedalmond;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
 }
 
 header {
@@ -8,6 +10,7 @@ header {
     color: white;
     padding: 20px 0;
     text-align: center;
+    grid-column: 1 / -1;;
 }
 
 .titulo {
