@@ -39,7 +39,7 @@ font-size: xx-large;}
     margin: 0 15px;
     padding: 3px 1px;
     color: #291be4;
-    background-color: #ffffff;
+    background-color: #b6b5c7;
     font-weight: bolder;
     border-radius: 5px;
     text-align: center;
@@ -47,7 +47,7 @@ font-size: xx-large;}
     
 }
 
-img {
+.img2 {
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -56,4 +56,108 @@ img {
 
 iframe {width: 100%;
 height: 500px;}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inicio-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.inicio {
+    margin: 0 15px;
+    color: #052afc;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+article {
+    max-width: 600px;
+    color:rgb(30, 30, 245);
+}
+
+.img2 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 515px;
+    margin: 20px 0;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+    background-color: #2c2cf1;
+    padding: 1px 20px;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background-color: #1c1cf1;
+}
+
+.pagina-oficial {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pagina-oficial a {
+    text-decoration: none;
+    color: #2c2cf1;
+    font-weight: bold;
+}
+
+.pagina-oficial a:hover {
+    text-decoration: underline;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Puedes ajustar el valor según tus preferencias */
+    align-items: center; /* Puedes ajustar el valor según tus preferencias */
+}
+
+.flex-container iframe {
+    width: 560px; /* Ajusta el ancho según tus necesidades */
+    height: 315px; /* Ajusta la altura según tus necesidades */
+    margin: 30px; /* Puedes ajustar el margen según tus preferencias */
+}
+.links{background-color: #1212e2;}
+.links{color: #000000;}
+.links{text-decoration: none;}
+footer{background-color: #3213e0;}
 
