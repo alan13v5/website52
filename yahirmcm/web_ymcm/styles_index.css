@@ -1,0 +1,88 @@
+.imgi {
+    width: 250px;
+  }
+
+.img1 {
+    width: 150px;
+}
+
+.vodi {
+    width: 500px;
+}
+
+.encabezado{
+    font-size: 80px;
+    text-align: center;
+}
+
+.bgpagina {
+    background-color: bisque;
+}
+
+.asd{
+    width: 18%;
+    padding-left: 10px;
+    margin-left: 10px;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    color: #29627e;
+}
+
+.cita{
+    font-style: italic;
+}
+
+.st {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 20px;
+}
+li {
+    font-family: Arial;
+    font-size: 18px;
+}
+.hindex {
+    font-size: 40px;
+}
+
+.cabeza {
+    background-color: rgb(163, 133, 94);
+    overflow: hidden;
+  }
+  
+.cabeza a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.cabeza a:hover {
+    background-color: #eed6b1;
+    color: black;
+  }
+  
+.cabeza a.sombreado {
+    background-color: #c57c41;
+    color: white;
+  }
+
+.sp {
+    color: crimson;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+.tbl {
+    font-family: Arial;
+    font-size: 20px;
+    color: brown;
+}

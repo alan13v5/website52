@@ -1,0 +1,49 @@
+body {
+    background-color: lightblue;
+}
+.liga1{
+    background-color: aquamarine;
+}
+.liga2{
+    background-color: coral;
+}
+.liga3{
+    background-color: thistle;
+}
+.liga4{
+    background-color: khaki;
+}
+.liga5{
+    background-color: lightcoral;
+}
+
+ul {
+    display: flex;
+    font-size: 250%;
+    color: darkblue;
+    grid-area: liga;
+    justify-content: center;
+    grid-template-rows: 5fr 5fr;
+}
+.head{
+    border: 10px solid goldenrod;
+    margin: 1px auto;
+}
+
+h1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    color: darkslateblue;
+}
+
+.cuadro {
+    border: 5px solid blue;
+    background-color: cornsilk;
+    margin: 215px;
+}
+
+.orilla{
+    display: flex;
+    justify-content: space-evenly;
+}
