@@ -74,3 +74,65 @@ table {
     float: left;
     width: 60%;
 } 
+
+h1.tdamian,
+h2.tsinopsisd {
+    margin: 1px;
+    padding: 0;
+}
+
+h1.tdamian {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px;
+}
+
+h2.tsinopsisd {
+    background-color: #2f4550;
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.imgd img {
+    width: 250px;
+    height: 300px;
+    float: right;
+    margin-left: 20px;
+    padding: 0px 100px;
+}
+
+.infod {
+    float: left;
+    width: 60%;
+    padding-right: 20px; 
+}
+
+.regresar {
+    background-color: #586f7c;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.regresar a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    width: 150px;
+}
+
+.regresar a:hover {
+    background-color: #000000;
+}
