@@ -1,0 +1,35 @@
+* {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    color: rgb(97, 87, 30);
+}
+
+a {
+    color: rgb(99, 98, 41);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-style: italic;
+    font-size: larger;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 4px;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+}
