@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(24, 35, 193);
+    color: black;
+    font-size: 20px;
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 28px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 28px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cuadrolinks{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+hr{
+    border-color: black;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.video{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cortometraje{
+    text-align: center;
+}
+
+.encuesta{
+    text-align: center;
+}
+
+.formulario{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.titulofast{
+    text-align: center;
+}
+
+.imagenes{
+    border-radius: 10px;
+}
+

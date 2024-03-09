@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CF Monterrey</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilorayados.css">
 </head>
 <body>
     <header>
         <h1 id="titulomayor">Equipos Relevantes de la Liga MX</h1>
         <nav>
             <ul>
-                <li><a href="america.html">Club America</a></li>
-                <li><a href="#rayados">CF Monterrey</a></li>
-                <li><a href="tigres.html">Tigres UANL</a></li>
-                <li><a href="mejorclub.html">El mejor club del mundo 🔥🔥🔥</a></li>
+                <li id="america"><a href="america.html">Club America</a></li>
+                <li id="rayados"><a href="rayados.html">CF Monterrey</a></li>
+                <li id="tigres"><a href="tigres.html">Tigres UANL</a></li>
+                <li id="mejorclub"><a href="mejorclub.html">El mejor club del mundo 🔥🔥🔥</a></li>
             </ul>
         </nav>
     </header>
@@ -24,6 +24,7 @@
             <h2 id="rayadoss">CF Monterrey</h2>
             <img src="material/imagenes/img3.png" alt="Club de Futbol Monterrey" width="300">
             <audio src="material/audio/audio2himno.mp3" controls></audio>
+            <p>(La calidad de imagen se fue de sabatico 😥)</p>
             <p >El Club de Futbol Monterrey,coloquialmente conocido como "Rayados" o simplemente "Monterrey", abreviado como "C. F. Monterrey" es un club de fútbol profesional con sede en Monterrey, México. Fue fundado el 28 de junio de 1945, juega de local en el Estadio BBVA y está ubicado en Guadalupe, en la zona metropolitana de Monterrey.</p>
             <p class="italicas">Utiliza camiseta blanca y azul a rayas verticales. Es el cuarto equipo mexicano con más torneos consecutivos en primera división con 85, y el sexto equipo con más torneos totales con 87.</p>
             <p class="italicas">Monterrey ha obtenido cinco títulos de Primera División de México y tres de Copa México. A nivel internacional, el equipo ganó en cinco ocasiones (tres de ellas consecutivas) la Liga de Campeones de la Concacaf y también una Recopa de la Concacaf. Es el único equipo perteneciente a la Concacaf que subió al podio del mundial de clubes en dos ocasiones, luego de obtener el tercer lugar en el 2012 y 2019. Monterrey es además el tercer equipo a nivel global con más puntos en la tabla del Mundial de Clubes con diecisiete puntos.</p>
@@ -49,7 +50,8 @@
             <section>
                 <h4 id="rayadoss">Compromiso más reciente</h4>
                 <p class="italicas">A la fecha de realizar esta página, el video a continuación presenta el más reciente compromiso del CF Monterrey en la Liga MX:</p>
-                <iframe width="930" height="523" src="https://www.youtube.com/embed/H6QVhYQjEPo" title="Resumen y goles | Monterrey 3-2 Pachuca | CL2024 - Liga Mx J6 | TUDN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="90%" height="523" src="https://www.youtube.com/embed/H6QVhYQjEPo" title="Resumen y goles | Monterrey 3-2 Pachuca | CL2024 - Liga Mx J6 | TUDN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p><b>(Papa Monterrey no pierde contra el Pachuca, hay niveles 😎)</b></p>
             </section>
             <section>
                 <h5 id="rayadoss">Estadísticas recientes</h5>
@@ -91,13 +93,13 @@
         </address>
         <p>&copy; 2024 Liga MX</p>
     </footer>
+    <p>¡Registrate para recibir mas noticias!</p>
     <form action="">
-        <label for="">Nombre:</label>
+        <label for="nombre">Nombre:</label>
         <input type="text" name="Nombre" id="nombre">
-        <label for="">Teléfono:</label>
+        <label for="telefono">Teléfono:</label>
         <input type="number" name="Telefono" id="telefono">
-        <label for="">Comentario:</label>
-        <input type="text" name="Comentario" id="coment">
-    </form>
+        <button type="submit">Enviar</button>
+    </form>    
 </body>
 </html>
