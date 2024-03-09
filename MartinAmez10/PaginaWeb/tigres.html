@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tigres UANL</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilotigres.css">
 </head>
 <body>
     <header>
         <h1 id="titulomayor">Equipos Relevantes de la Liga MX</h1>
         <nav>
             <ul>
-                <li><a href="america.html">Club America</a></li>
-                <li><a href="rayados.html">CF Monterrey</a></li>
-                <li><a href="#tigres">Tigres UANL</a></li>
-                <li><a href="mejorclub.html">El mejor club del mundo 🔥🔥🔥</a></li>
+                <li id="america"><a href="america.html">Club America</a></li>
+                <li id="rayados"><a href="rayados.html">CF Monterrey</a></li>
+                <li id="tigres"><a href="tigres.html">Tigres UANL</a></li>
+                <li id="mejorclub"><a href="mejorclub.html">El mejor club del mundo 🔥🔥🔥</a></li>
             </ul>
         </nav>
     </header>
@@ -49,7 +49,8 @@
             <section>
                 <h4 id="tigress">Compromiso más reciente</h4>
                 <p>A la fecha de realizar esta página, el video a continuación presenta el más reciente compromiso de Tigres UANL en la Liga MX:</p>
-                <iframe width="930" height="523" src="https://www.youtube.com/embed/6BlV4UD324g" title="Resumen y gol | Cruz Azul vs Tigres | CL2024 - Liga Mx J7 | TUDN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="90%" height="523" src="https://www.youtube.com/embed/6BlV4UD324g" title="Resumen y gol | Cruz Azul vs Tigres | CL2024 - Liga Mx J7 | TUDN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p><b>(Que humildad de los tigres al regalar 3 puntos a la maquina 😊)</b></p>
             </section>
             <section>
                 <h5 id="tigress">Estadísticas recientes</h5>
@@ -91,13 +92,13 @@
         </address>
         <p>&copy; 2024 Liga MX</p>
     </footer>
+    <p>¡Registrate para recibir mas noticias!</p>
     <form action="">
-        <label for="">Nombre:</label>
+        <label for="nombre">Nombre:</label>
         <input type="text" name="Nombre" id="nombre">
-        <label for="">Teléfono:</label>
+        <label for="telefono">Teléfono:</label>
         <input type="number" name="Telefono" id="telefono">
-        <label for="">Comentario:</label>
-        <input type="text" name="Comentario" id="coment">
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
