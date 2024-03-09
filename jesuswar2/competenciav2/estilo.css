@@ -35,7 +35,7 @@ a[href$=".html"]{
 }
 
 body{
-    background-color: lightblue;
+    background-color: lightcyan;
 }
 
 article > h2 {
@@ -47,4 +47,9 @@ article > h2 {
 
 .cita{
     background-color: mediumturquoise;
+}
+
+.body1{
+    display: grid;
+    grid-template-columns: auto;
 }
