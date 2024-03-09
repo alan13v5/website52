@@ -3,7 +3,7 @@ section{
     background-color: #3c3c3c;
     padding: 20px;
     border: 8px dotted white;
-    height: 350px;
+    height: 380px;
     flex-wrap: wrap;
     margin: 20px;
 }
@@ -11,7 +11,7 @@ section{
 .f1{
     border:3px solid white;
     width: 541px;
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,3 +58,4 @@ h2{
 h1{
     text-align: center;
 }
+
