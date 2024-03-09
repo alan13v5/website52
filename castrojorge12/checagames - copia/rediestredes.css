@@ -10,6 +10,15 @@ header {
     text-align: center;
 }
 
+
+
+
+section{
+
+    display: flex;
+    justify-content: center ;
+}
+
 .titulo {
     font-size: 36px;
     margin-bottom: 20px;
@@ -19,14 +28,17 @@ header {
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 20px;
+    
 }
 
 .red-social h2 {
     margin-top: 0;
+    align-items: center;
 }
 
 .red-social img {
     max-width: 100px;
+    
 }
 
 .red-social p {
