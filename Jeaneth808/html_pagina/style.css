@@ -1,0 +1,93 @@
+.navegar {
+    display: flex;
+    background-color: rgba(189, 53, 234, 0.807);
+    justify-content:space-evenly;
+}
+
+.imglogo{
+    width: 150px;
+    margin-left: 500px;
+}
+
+.portada{
+    width: 650px;
+    margin-left: 100px;
+}
+
+.imagenesinicio{
+    width: 250px;
+}
+
+.ImgPrincipal{
+    width: 350px   
+}
+
+
+.secc-1{
+    text-align: center;
+}
+
+.imgcontacto{
+    width: 350px;
+}
+
+.imagenesextra{
+    width: 250px;
+}
+
+.cuadro_deTx{
+    height: 400px;
+    width: 700px;
+    background-color:rgba(159, 69, 243, 0.57) ;
+    border: 1px solid black;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1f 1f 1fr 1fr;
+    grid-template-rows: auto 100px;
+}
+
+/* novedades */
+.nportada{
+    width: 750px;
+    float: none;
+    margin-left: 20em;
+}
+
+.nimg2{
+    width: 350px;
+    
+}
+
+.nimg3{
+    width: 455px;
+    float: none;
+    margin-left: 30em;
+}
+
+
+/* pasteles */
+.pastel1{
+    width: 250px;
+}
+
+/* diseño */
+body{
+    background-color: rgba(245, 167, 228, 0.541);
+}
+
+.prueba  {
+    display: flex;
+    background-color: azure;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.contendor {
+    display: flex;
+    flex-direction: column;
+
+}
+
+

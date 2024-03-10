@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header><h1 id="encabezado4">LLENADO DE FORMULARIO</h1></header>
+    <nav>
+        <a href="index.html">INICIO</a>
+        <a href="cand1.html">CONTRINCANTE N°1</a>
+        <a href="cand2.html">CONTRINCANTE N°2</a>
+        <a href="cand3.html">CONTRINCANTE N°3</a>
+        <a href="resul.html">GANADOR 🎉</a>
+    </nav>
+    <p>Gracias por su tiempo, solo se requieren los siguientes Datos para dar por finalizado el Formulario</p>
+    <form>
+        <div>
+            <label for="name">Nombre:</label> <input type="text" id="name" placeholder="Ingrese su Nombre">
+            <label for="aps">Apellidos:</label> <input type="text" id="aps" placeholder="Ingrese sus Apellidos">
+        </div>
+        &nbsp;
+        <div>
+            <label for="edad">Ingrese su Edad:</label> <input type="number" name="años">
+        </div>
+        &nbsp;
+        <div>
+            <label><input type="radio" name="campo">Hombre</label>
+            <label><input type="radio" name="campo">Mujer</label>
+            <label><input type="radio" name="campo">Helicoptero de Ataque</label>
+            <label><input type="radio" name="campo">Otro</label>
+        </div>
+        &nbsp;
+        <div>
+            <label>Ingrese su correo electronico:</label> <input type="email" name="email" placeholder="example@mail.com">
+        </div>
+        &nbsp;
+        <div>
+            <label>Ingrese su Telefono:</label><input type="number" name="cel" placeholder="----------">
+        </div>
+        &nbsp;
+        <div>
+            <label for="fecha"> Fecha: <input type="date" name="actual" id="1"></label>
+            <label for="hora">Hora: <input type="time" name="hora" id="2"></label>
+        </div>
+
+        <div>
+            <p>Que calificacion le da a lo visto?</p>
+            <select name="rank">
+                <option selected disabled>Pienselo</option>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="1">⭐</option>
+            </select>
+        </div>
+        <div>
+            <p>Escriba alguna sugerencia u opinion:</p>
+            <textarea name="opinion" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="doc"></label> <input type="file" name="usuario">
+        </div>
+        <input type="submit" value="Enviar">
+        <input type="reset">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+h1 {
+    background-color: gray;
+    text-align: center;
+    color: rgba(255, 226, 6, 0.896);
+}
+
+#imagen {
+    border: 5px solid black;
+    color: peru;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    background-color: rgb(220, 220, 220);
+    border: 5px solid black;
+}
+
+#relevante {
+    background-color: gold;
+}
+
+#menu {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.encabezados_tablas {
+    background-color: rgb(125, 214, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

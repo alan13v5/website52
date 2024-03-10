@@ -1,0 +1,78 @@
+h1.solar {
+    text-align: center;
+    background-color: blueviolet;
+}
+
+h2.SistemaSolar {
+    text-align: center;
+
+}
+
+h3.QueEs {
+    text-align: center;
+
+}
+
+/* styles.css */
+.contenedor {
+    /* Centrar horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p {
+    text-align: center;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h4.h4 {
+    text-align: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+h6 {
+    text-align: center;
+    background-color: rgb(250, 167, 0);
+    color: rgb(44, 0, 190);
+}
+
+nav ul{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    list-style-type:none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: rgb(205, 63, 63);
+}
+

@@ -1,0 +1,134 @@
+[id*="encabezado"]{
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+}
+#encabezado0{
+    color: red;
+}
+#encabezado1{
+    color: blueviolet;
+}
+#encabezado2{
+    color: forestgreen;
+}
+#encabezado3{
+    color: darkorange;
+}
+#encabezado5{
+    color: goldenrod;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.total{
+    color:crimson;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.decision{
+    font-size: 30px;
+    background-color: cornflowerblue;
+    color: darkred;
+}
+
+.win{
+    box-shadow: 5px 5px 5px yellow;
+}
+
+#encabezado{
+    
+    color: indigo;
+}
+
+.extra[lang="es"]{
+    color: blueviolet;
+}
+
+a[href$=".html"]{
+    border: 2px dashed orange;
+}
+
+.punto{
+    color: navy;
+    font-size: 75px;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+article > h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px dotted black;
+    color: midnightblue;
+}
+
+.cita{
+    background-color: lightskyblue;
+}
+
+.body1{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: paleturquoise;
+}
+
+.ini{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.f1{
+    display: flex;
+    width: auto;
+    float: right;
+    margin-left: 1em;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.f2{
+    display: flex;
+    width: auto;
+    float: left;
+    margin-left: 1em;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.traci{
+    display: flex;
+    width: 450px;
+    margin-left: 1em;
+    flex-wrap: nowrap;
+    justify-content: right;
+}
+
+.body2{
+    background-color: aquamarine;
+}
+
+.izq{
+    display: flex;
+    width: 550px;
+    margin-right: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.body3{
+    background-color: lightgoldenrodyellow;
+}
+.body4{
+    background-color: aquamarine;
+}
