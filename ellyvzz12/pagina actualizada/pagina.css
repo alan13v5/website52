@@ -165,3 +165,50 @@ iframe {
     padding: 10px;
 }
 
+.premios {
+    text-align: center;
+    color: rgb(146, 122, 15);
+}
+
+.info {
+    margin: 10px 15px;
+}
+
+.lista1 {
+    border: 2px solid rgb(102, 95, 31);
+    border-radius: 5px;
+    margin: 20px 15px;
+    padding: 30px;
+}
+
+aside {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(221, 182, 10);
+}
+
+td {
+    background-color: rgb(240, 231, 182);
+}
+
+.win {
+    background-color: rgb(70, 243, 70);
+}
+
+.nom {
+    background-color: rgb(255, 68, 68);
+}
