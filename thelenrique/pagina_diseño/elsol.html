@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>El Sol</title>
+    <link rel="stylesheet" href="style.css">
     <style>
                         body {
             background-color: rgb(255, 199, 199);
@@ -10,7 +11,19 @@
 </head>
 <body>
     
+    
     <header>
+        <H6>Buscador</H6>
+        <nav>
+            <ul>
+                <li><a href="otrosobjectos.html">otrosobjectos<a/>
+                <li><a href="elsol.html">elsol<a/>
+                <li><a href="planetas.html">planetas<a/>
+                <li><a href="planetasenanos.html">planetasenanos<a/>
+                <li><a href="index.html">index<a/>
+    
+    
+        </nav>
         <h1>El Sol</h1>
         <nav>
             <a href="#que-es">¿Qué es el Sol?</a> |
@@ -18,6 +31,7 @@
             <a href="#datos-curiosos">Datos curiosos del Sol</a>
         </nav>
     </header>
+    
     <main>
         <article>
             <section id="que-es">
@@ -40,7 +54,9 @@
                     <dd>220 km/s</dd>
                     <dt>Composición:</dt>
                     <dd>Está compuesto por una mezcla de gases tremendamente calientes. Los más de 60 elementos se encuentran en forma de átomos individuales y con frecuencia ionizados. El elemento más abundante es el hidrógeno, seguido del helio.</dd>
+                    <center>
                     <img src="https://i.pinimg.com/originals/cb/9e/8a/cb9e8ac412293a36bd38b0e25eb66986.png" alt="Sol" width="400" height="300">
+                </center>
                 </dl>
             </section>
             <section id="datos-curiosos">
@@ -51,7 +67,9 @@
                     <li>El Sol no gira como una bola sólida, ya que su superficie está compuesta por un gas caliente cargado eléctricamente llamado plasma.</li>
                     <li>A diferencia de la Tierra, el Sol no tiene Luna.</li>
                     <li>El Sol tiene temperaturas altas, pero fluctúan en sus diferentes zonas.</li>
+                    <center>
                     <img src="https://www.turismoviajar.com/wp-content/uploads/2020/06/sol-espacio.jpg" alt="SolA" width="400" height="300">
+                </center>
 
                 </ul>
             </section>
@@ -60,7 +78,9 @@
             <h3>¿Sabías que...?</h3>
             <blockquote>
                 <p>El Sol es tan grande que podrían caber más de un millón de Tierras dentro de él.</p>
+                <center>
                 <img src="https://misistemasolar.com/wp-content/uploads/2017/10/el-sol-34-1.jpg" alt="SolA11" width="400" height="300">
+            </center>
             </blockquote>
         </aside>
     </main>
@@ -71,5 +91,13 @@
             Contacto: <a href="luis.vargasmrn@uanl.edu.mx">mi correo</a>
         </address>
     </footer>
+    <center>
+        <h7>Por favor, comparte tu experiencia</h7>
+        <form action="/submit_feedback" method="post">
+            <label for="feedback">¿Cómo fue tu experiencia con la información de la página?</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </center>
 </body>
 </html>
