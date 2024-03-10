@@ -3,55 +3,45 @@ body {
     background-color: blanchedalmond;
 }
 
-.titulo {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.imagen-redondeada {
-    text-align: left;
-}
-
-.imagen-redondeada img {
-    border-radius: 50%; 
-    width: 100px; 
-    height: 100px; 
-    overflow: hidden; 
-}
-
-.noticia {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-}
-
-.texto-izquierda, .texto-derecha {
-    flex: 1;
-    padding: 0 10px;
-}
-
-.texto-derecha{
-
-    text-align: right;
-}
-
-.videoizq {
-    margin-top: 20px;
-}
-
-.videoderecha{
-    text-align: right;
-
-}
-
-html{
-    background-color: blanchedalmond;
-}
-
 header {
     background-color: grey;
     color: blanchedalmond;
     padding: 20px 0;
     text-align: center;
 }
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 20px; 
+}
+
+.noticia {
+    border: 1px solid #ccc; 
+    padding: 20px;
+}
+
+.texto-izquierda, .texto-derecha, .videoizq, .videoderecha {
+    margin-bottom: 20px; 
+}
+
+.texto-izquierda, .videoizq {
+    grid-column: 1; 
+}
+
+.texto-derecha, .videoderecha {
+    grid-column: 2; 
+}
+
+.videoizq, .videoderecha {
+    text-align: center; 
+}
+
+html {
+    background-color: blanchedalmond;
+}
+
+
