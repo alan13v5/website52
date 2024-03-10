@@ -1,0 +1,164 @@
+<!-- PROYECTO WEB
+desarrolla un sitio web del tema de su preferencia
+
+crear 5 documentos html (uno de ellos tendra el nombre de index.html)
+1- incluir tabla
+2- incluir formulario
+3- usar todas las restantes etiquetas por lo menos una vez
+4- integrar links para navegar en el sitio
+5- se tienen que registrar en su proyecto por lo menos 5 commits 
+para el lunes 19 de febrero 2024 11:55pm
+
+utilizar github para ponerlo en un repositorio
+
+git config --global user.name "Brandon Capistran Moya"
+git config --global user.email dinosauriocapi@hotmail.com
+git add index.html
+git status
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HISTORIA DE LOS VIDEOJUEGOS</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>LA HISTORIA DE LOS VIDEOJUEGOS</h1>
+    </header>
+    <h2>EPOCAS DE LOS VIDEOJUEGOS</h2>
+    <ol id="menu">
+        <li><a href="1950_1970.html">1950-1970</a></li>
+        <li><a href="1980_1990.html">1980-1990</a></li>
+        <li><a href="1990_2000.html">1990-2000</a></li>
+        <li><a href="2000_presente.html">2000-actualidad</a></li>
+    </ol>
+    
+    <article>
+        <h3>Que es un videojuego?</h3>
+        <p>Daremos inicio con la pregunta <i>sobre que es un videojuego?</i>, un videojuego <b>es un software o juego electronico en el que uno o mas usuarios que en este caso se les llamada jugadores interactuan por medio de un controlador, con un dispositivo electronico que muestra imagenes de video</b> , en nuestra actualidad han existido a lo que se les conoce como plataformas, las cuales puede ser desde una computadora, incluso un telefono celular es considerado tambien una plataforma ya que con el avance de las nuevas tecnologias los telefonos son mas capaces de soportar videojuegos y poder jugar sin necesidad de tener que comprar una plataforma especifica</p>
+
+        <img id="imagen" src="imagenes/consolas.jpg" alt="mano con un control y alrededor con dispositivos para jugar videojuegos">
+        <img src="imagenes/consola_teclado.jpg" alt="">
+
+        <h3>Etapas de los videojuegos</h3>
+        <p>Como es claro, todo invento o todo proyecto tiene un inicio, el inicio de la historia de los videojuegos no tiene pocos años desde el primer videojuego, por lo mismo podemos llegar a separar toda sus historia en distintas etapas, ya que en comparacion con el primer videojuego de la historia a los juegos mas recientes actualmente o los mas destacados, existe una clara diferencia tanto visual para los jugadores, como compleja para lo desarrolladores que trabajaron para crear el videojuego</p>
+
+        <h3>Consolas de videojuegos</h3>
+        <p>A lo largo de toda su historia no solamente los videojuegos han tenido un cambio impresionante, si no el desarrollo de nuevas plataformas o consolas para poder hacer que los nuevos videojuegos puedan ser capaces de iniciarse. A continuacion se muestra algunas de las consolas mas influyentes a lo largo de los años:</p>
+
+        <img id="imagen" src="imagenes/consola_teclado.jpg" alt="control de xbox arriba de un teclado">
+        <table>
+            <thead>
+                <tr class="encabezados_tablas">
+                    <th>CONSOLA</th>
+                    <th>FABRICANTE</th>
+                    <th>AÑO DE LANZAMIENTO</th>
+                    <th>CONTROLADORES INCLUIDOS</th>
+                    <th>ALMACENAMIENTO</th>
+                    <th>RESOLUCION MAXIMA</th>
+                    <th>JUEGOS MAS POPULARES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Atari 2600</td>
+                    <td>Atari</td>
+                    <td>1977</td>
+                    <td>2 joysticks, paddle</td>
+                    <td>Cartuchos</td>
+                    <td>320x192</td>
+                    <td>Space Invaders, Pac-Man, Pitfall!</td>
+                </tr>
+                <tr>
+                    <td>Nintendo Entertainment System (NES)</td>
+                    <td>Nintendo</td>
+                    <td>1985</td>
+                    <td>2 controles</td>
+                    <td>Cartuchos</td>
+                    <td>256x240</td>
+                    <td>Super Mario Bros., The Legend of Zelda, Metroid</td>
+                </tr>
+                <tr>
+                    <td>Sega Genesis (Mega Drive)</td>
+                    <td>Sega</td>
+                    <td>1988</td>
+                    <td>1 control</td>
+                    <td>Cartuchos</td>
+                    <td>320x224</td>
+                    <td>Sonic the Hedgehog, Streets of Rage, Mortal Kombat</td>
+                </tr>
+                <tr>
+                    <td>Super Nintendo Entertainment System (SNES)</td>
+                    <td>Nintendo</td>
+                    <td>1990</td>
+                    <td>2 controles</td>
+                    <td>Cartuchos</td>
+                    <td>256x224</td>
+                    <td>Super Mario World, The Legend of Zelda: A Link to the Past, Super Metroid</td>
+                </tr>
+                <tr>
+                    <td>Sony PlayStation</td>
+                    <td>Sony</td>
+                    <td>1994</td>
+                    <td>1 control</td>
+                    <td>CD-ROM</td>
+                    <td>640x480</td>
+                    <td>Final Fantasy VII, Gran Turismo, Metal Gear Solid</td>
+                </tr>
+                <tr>
+                    <td>Nintendo 64</td>
+                    <td>Nintendo</td>
+                    <td>1996</td>
+                    <td>1 control</td>
+                    <td>Cartuchos, Memory Pak</td>
+                    <td>640x480</td>
+                    <td>Super Mario 64, The Legend of Zelda: Ocarina of Time, GoldenEye 007</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <h3>Si te interesa conocer mas, registrate:</h3>
+
+    <form action="/enviar" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        
+        <label for="email">apellidos:</label><br>
+        <input type="text" id="email" name="apellidos" required><br>
+        
+        <label for="mensaje">numero de telefono:</label><br>
+        <input type="number" id="numero_telefono" name="numero" required></input><br>
+
+        <label for="ciudad">Ciudad:</label><br>
+        <input type="text" id="ciudad" name="ciudad" required></input><br>
+        
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <footer>
+        <p>Brandon Capistran Moya &copy;</p>
+    </footer>
+    
+</body>
+</html>
