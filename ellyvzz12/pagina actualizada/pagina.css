@@ -1,0 +1,167 @@
+* {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    color: rgb(202, 172, 0);
+}
+
+a {
+    color: rgb(99, 98, 41);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-style: italic;
+    font-size: larger;
+    border: 2px solid rgb(102, 95, 31);
+    border-radius: 10px;
+    margin: 4px;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.titulo {
+    color: rgb(199, 180, 15);
+    background-color: black;
+    text-align: center;
+}
+
+.titulo2 {
+    background-color: rgb(199, 180, 15);
+    text-align: center;
+}
+
+iframe {
+    border: 5px solid rgb(160, 131, 4);
+}
+
+.discos {
+    text-align: center;
+    color: rgb(145, 145, 23);
+}
+
+.p1 {
+    background-color: rgb(128, 109, 2);
+    color: white;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.disco1 {
+    margin: 5px 20px;
+    background-color: rgb(47, 180, 47);
+    color: white;
+    padding: 10px;
+}
+
+.disco2 {
+    margin: 5px 20px;
+    background-color: rgb(219, 205, 8);
+    color: white;
+    padding: 10px;
+}
+
+.disco3 {
+    margin: 5px 20px;
+    background-color: rgb(121, 2, 201);
+    color: white;
+    padding: 10px;
+}
+
+.disco4 {
+    margin: 5px 20px;
+    background-color: rgb(221, 9, 9);
+    color: white;
+    padding: 10px;
+}
+
+.disco5 {
+    margin: 5px 20px;
+    background-color: rgb(78, 110, 255);
+    color: white;
+    padding: 10px;
+}
+
+.disco6 {
+    margin: 5px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+}
+
+.disco7 {
+    margin: 5px 20px;
+    background-color: rgb(252, 114, 222);
+    color: white;
+    padding: 10px;
+}
+
+.disco8 {
+    margin: 5px 20px;
+    background-color: rgb(203, 204, 151);
+    color: white;
+    padding: 10px;
+}
+
+.disco9 {
+    margin: 5px 20px;
+    background-color: rgb(110, 82, 4);
+    color: white;
+    padding: 10px;
+}
+
+.disco10 {
+    margin: 5px 20px;
+    background-color: rgb(211, 197, 5);
+    color: white;
+    padding: 10px;
+}
+
+.disco11 {
+    margin: 5px 20px;
+    background-color: rgb(179, 7, 7);
+    color: white;
+    padding: 10px;
+}
+
+.disco12 {
+    margin: 5px 20px;
+    background-color: rgb(42, 48, 75);
+    color: white;
+    padding: 10px;
+}
+
+.disco13 {
+    margin: 5px 20px;
+    background-color: rgb(185, 85, 177);
+    color: white;
+    padding: 10px;
+}
+
+.disco14 {
+    margin: 5px 20px;
+    background-color: rgb(66, 93, 250);
+    color: white;
+    padding: 10px;
+}
+
+.disco15 {
+    margin: 5px 20px;
+    background-color: rgb(83, 88, 83);
+    color: white;
+    padding: 10px;
+}
+

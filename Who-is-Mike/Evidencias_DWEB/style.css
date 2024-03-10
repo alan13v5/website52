@@ -1,5 +1,37 @@
+.links {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a7002a72;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: turquoise;
+}
+
+.active {
+    background-color:tomato;
+  }
+}
+
+
 .e {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: green;
 }
 
@@ -61,10 +93,6 @@ imagen2{
 
 
 
-nav{
-    color: gold;
-}
-
 header {
     background-color: cadetblue;
     color: blanchedalmond;
@@ -77,8 +105,19 @@ header {
     color: seashell;
 }
 
-.body_contacto{
-    background-color: peru;
+.event{
+    background-color: dimgrey;
+    color: gold;
+}
+
+.mapa {
+    align-self: center;
+}
+
+.body_articulo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 .profile-card{
