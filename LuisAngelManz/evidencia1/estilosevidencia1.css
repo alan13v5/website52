@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+
+     
+    
+}
+
+header {
+    background-color: #1c0000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #bcafaf;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    /* El contenido principal ocupa el espacio restante */
+}
+
+aside {
+  
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  order: 2; /* Cambia el orden visual */
+}
+
+section {
+  flex: 1;
+  padding: 10px;
+  order: 1; /* Cambia el orden visual */
+}
+
+p{
+    font-size: medium;
+    text-align: justify;
+    
+    
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+
+
+}
+
+#registro_principal {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  .contenido {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  .sub-form {
+    margin-left: 20px;
+  }
+
+  .sub-form label {
+    font-weight: normal;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+ 
