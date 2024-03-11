@@ -1,0 +1,123 @@
+/* Editar header */
+.mi-header {
+    background-image: url('image/pagina1fondo.jpg'); 
+    background-size: cover; 
+    color: white; 
+    text-align: center; 
+    padding: 40px 0; 
+}
+
+.texto-encima {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+}
+
+.texto-encima h1 {
+    font-size: 2.5em; 
+}
+
+.texto-encima p{
+    font-size: 1em;
+}
+
+
+/*  AQUI TERMINA LA EDICION DEL HEADER */
+
+
+
+body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto 500px;
+    grid-gap: 2em;
+    justify-content: space-around;
+    background-color: lightcyan;
+}
+
+
+
+
+footer{
+    grid-column: 3/-3;
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    width: 97%; 
+    bottom: 0; 
+}
+
+
+
+
+header{
+    grid-column: 1/-1;
+/*     background-color:firebrick;
+    color: #fff;
+    text-align:center;
+    text-decoration-style: dotted;
+    padding: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+
+}
+
+aside {
+    background-color: #f0f0f0; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    width: 250px; 
+}
+
+aside h2 {
+    color: #333; 
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
+}
+
+aside p {
+    color: #666; 
+    font-size: 1em; 
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+/* Aqui editaré la lista */
+
+.lista-bonita {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lista-bonita li {
+    margin-bottom: 10px; 
+  }
+  
+  .lista-bonita li a {
+    text-decoration: none;
+    color: #333; 
+    font-family: Arial, sans-serif; 
+    font-size: 18px; 
+    padding: 8px 12px; 
+    border-radius: 20px; 
+    background-color: #f0f0f0;
+    display: block; 
+    transition: background-color 0.3s ease; 
+    
+  }
+  
+  .lista-bonita li a:hover {
+    background-color: #ccc; 
+  }
+  
+aside h3{
+    text-align:center;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+  
