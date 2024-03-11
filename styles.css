@@ -1,0 +1,105 @@
+body {
+    background-color:black;
+}
+
+.titulo-del-blog {
+    text-align: center;
+    color: orange;
+    font-size: 50px;
+    font-family: Evil Empire;
+}
+
+.banana-dance-gif {
+    position: relative; 
+    top: 20px; 
+    left: 710px; 
+    right: 0px;
+    
+}
+
+.descrip-blog {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family:monospace;
+}
+
+table {
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+}
+
+th {
+    color: white;
+    font-family: arial;
+}
+
+td {
+    color: greenyellow;
+    font-family: arial;
+}
+
+caption {
+    color: white;
+    padding-top: 20px;
+}
+
+td,th {
+    border: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Formulario-Comentario {
+    width: 400px;
+    background: orange;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+
+.menu {
+    
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    font-family: arial black;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    color: black;
+    background: greenyellow;
+}

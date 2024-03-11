@@ -1,0 +1,88 @@
+body{
+    background-color: purple;
+}
+
+
+
+a{
+    font-family: arial black;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    color: black;
+    background: greenyellow;
+}
+
+.titulo-del-blog {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Evil Empire;
+}
+
+.goku{
+    text-align: center;
+   
+}
+
+.descrip-blog {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family:monospace;
+}
+
+table {
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+}
+
+th {
+    color: white;
+    font-family: arial;
+}
+
+td {
+    color: greenyellow;
+    font-family: arial black;
+}
+
+caption {
+
+    color: white;
+    padding-top: 20px;
+}
+
+td,th {
+    border: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+

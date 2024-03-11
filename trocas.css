@@ -1,0 +1,47 @@
+body{
+    background-color: chocolate;
+}
+
+a{
+    font-family: arial black;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    color: black;
+    background: greenyellow;
+}
+
+.titulo-del-blog {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Evil Empire;
+}
+
+.descrip-blog {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family:monospace;
+}
