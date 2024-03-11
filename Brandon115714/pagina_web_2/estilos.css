@@ -1,0 +1,57 @@
+h1 {
+    background-color: gray;
+    text-align: center;
+    color: rgba(255, 226, 6, 0.896);
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#imagen {
+    border: 5px solid black;
+    display: inline-block;
+}
+
+#imagen_derecha {
+    border: 5px solid black;
+    float: right;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    background-color: rgb(220, 220, 220);
+    border: 5px solid black;
+}
+
+#titulo_tabla {
+    text-align: center;
+    border: 5px dotted rgb(0, 0, 167);
+}
+
+#relevante {
+    background-color: gold;
+}
+
+#menu {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.encabezados_tablas {
+    background-color: rgb(125, 214, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagen_fechas {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+}

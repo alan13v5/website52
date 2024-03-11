@@ -1,0 +1,38 @@
+body
+{background-color: black;
+color: rgb(1, 255, 35);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: larger;
+a:link {
+    color: green;
+}
+a:link {
+    color: green;
+}
+a:hover{
+    font-size: 1.1em;
+}
+
+a:active{
+    color:violet
+}
+
+#cuadrado {
+    width: 200px;
+    height: 200px;
+    background: #aaa;
+    animation-name: mianimation;
+    animation-duration: 4s;
+    position: relative;
+    animation-direction: reverse;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mianimation {
+    0% {background:#aaa;left: 0; top:0px;}
+    25% {backround:red;left:300px;top:0px;}
+    58% {backround:green;left:300px;top:300px;}
+    75% {backround:pink;left:0px;top:300px;}
+    100% {backround:blue;left:0px;top:0px}
+}
