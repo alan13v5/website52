@@ -53,9 +53,6 @@ li a:hover {
     justify-content: center;
 }
 
-.body_carreras{
-background-color: indianred;
-}
 
 .body_evento{
     background-image: url(facpya1.jpg);
@@ -91,7 +88,9 @@ imagen2{
 /* este para selectores de lista */
 /* h1,.e {background-color: gray;} */
 
-
+.A1{
+    background-color: #008ed6;
+}
 
 header {
     background-color: cadetblue;
