@@ -16,7 +16,7 @@
 }
 
 .bgpagina {
-    background-color: bisque;
+    background-color: #8FC1B5;
 }
 
 .asd{
@@ -50,7 +50,7 @@ li {
 }
 
 .cabeza {
-    background-color: rgb(163, 133, 94);
+    background-color: #007566;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -66,12 +66,12 @@ li {
   }
   
 .cabeza a:hover {
-    background-color: #eed6b1;
+    background-color: #589A8D;
     color: black;
   }
   
 .cabeza a.sombreado {
-    background-color: #c57c41;
+    background-color: #265C4B;
     color: white;
   }
 
@@ -100,7 +100,7 @@ body{
 }
 
 .gritem{
-    background-color: rgb(255, 255, 255);
+    background-color: #e2f7f2;
     border: 1px solid;
     padding: 20px;
     font-size: 20px;
@@ -110,7 +110,7 @@ body{
 }
 
 .gritemencabezado{
-    background-color: rgb(211, 171, 120);
+    background-color: #146551;
     border: 2px solid black;
     padding: 20px;
     font-size: 20px;
