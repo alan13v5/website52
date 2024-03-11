@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #471ea8;
+}
+
+.texto{
+    font-size: 25px;
+}
+.sg{
+    color: rgb(53, 27, 201);
+}
+
+span{
+    color: #0ee07e;
+}
+
+.nbar{
+    height: 100%;
+    width: 250px;
+    background-color: #050504;
+    float: left;
+    border-radius: 7px;
+    box-shadow: 0 0 50px #df1010;
+}
+
+.nbar li{
+    position: relative;
+    height: 29px;
+    list-style: none;
+    margin-top: 7px;
+}
+
+.nbar li a{
+    border-radius: 7px;
+    font-size: 15px;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    text-decoration: none
+}
+
+.nbar li a:hover{
+    background-color: #f10606;
+    transition: ease-in .2s;
+    font-size: 17px;
+    box-shadow: 0 0 5px #c30101,
+                0 0 15px #01c38d,
+                0 0 25px #01c38d,
+                0 0 5px #01c38d
+}
+
+
+/* ------------------------------Diseño Menu---------------------------------------- */
+.menu li:nth-child(1){
+    border-left: 5px #000000;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+
+.menu2 li:nth-child(2){
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+.menu3 li:nth-child(3){
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+.menu4 li:nth-child(4){
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+.menu5 li:nth-child(5){
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+.menu6 li:nth-child(6){
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+.menu7 li:nth-child(7){
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+.menu8 li:nth-child(8){
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+.menu9 li:nth-child(9){
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+.menu10 li:nth-child(10){
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+.menu11 li:nth-child(11){
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background-color: #01c38d;
+}
+
+/* ------------------------------Diseño Menu---------------------------------------- */
+
+
+.tarjeta img{
+    border-radius: 6px;
+    height: 210px;
+    width: 330px;
+}
+
+.contenedor{
+    width: 80%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.tarjeta{
+    height: 60vh;
+    margin: 20px;
+    border-radius: 6px;
+    /* overflow: hidden; */
+    background-color: #696e79;
+    box-shadow: 0px 1px 10px #191e29;
+    transition: all 400ms ease;
+}
+
+.tarjeta:hover{
+    box-shadow: 5px 5px 20px #ffffff;
+    transform: translateY(-3%);
+}
+
+.tarjeta .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.tarjeta .contenido h3{
+    font-size: 30px;
+}
+
+.tarjeta .contenido a{
+    font-size: 20x;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #01c38d;
+    border: 1px solid #01c38d;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.tarjeta .contenido a:hover{
+    background: #01c38d;
+    color: white;
+}
+
+.titulo{
+    color: #ffffff;
+    font-size: 50px;
+}

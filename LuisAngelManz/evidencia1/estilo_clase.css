@@ -1,0 +1,48 @@
+/* 
+h1{
+    border: 5px solid black;
+    border-top: 3px solid blue;
+    border-bottom: 6 px dotted blue;
+    border-left: 6px solid blue;
+    border-right: 6px groove blue;
+
+    padding: 10px;
+    padding:  10px 20 px 30px 40px;
+    
+
+} */
+body{
+    background-color: darkgray;
+}
+
+/* h1{
+    padding: 20px;
+    border:  10px solid black;
+    width: 10em;
+    height: 15em;
+    background-color: green;
+    display: inline-block;
+}
+
+h2,a {
+    padding: 20px;
+    border: 10px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    box-sizing: border-box;
+    display: inline-block;
+}
+img{
+    display: block;
+    margin-top: 5px;
+    border: 2px solid black;
+} */
+
+h1{
+    width: 100vw;
+    height: 100vh;
+    font-size: 25px;
+    padding: 0.5rem;
+    margin: 2rem;
+}

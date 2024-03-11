@@ -53,11 +53,30 @@ h2 {
     color: #6420AA;
 }
 
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2f124d;  
+    margin: 10px 10px 5px;
+}
+
 p { 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px 10px 0px;
 }
 
+dt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 10px 5px;
+}
+
+dd {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 20px 0px;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .contenedor {
     display: flex;
@@ -68,7 +87,7 @@ p {
 
 .contenedor img {
     max-width: 200px;
-    height: auto;
+    height: 100%;
     margin: 10px;
 }
 
@@ -99,5 +118,30 @@ p {
 .tablas th, .tablas td {
     border: 1px solid black;
     padding: 8px;
+    text-align: center;
+}
+
+.contenedor_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+.contenedor_header img {
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+.texto {
+    display: flex;
+    position: absolute;
+    font-size: 1em; 
+    padding: 9px;
+    border: 1px solid white;
+    letter-spacing: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text_centrado {
     text-align: center;
 }
