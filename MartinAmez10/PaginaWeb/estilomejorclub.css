@@ -1,0 +1,159 @@
+marquee {
+    font-weight: bold;
+    color: red;
+    background-color: white;
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+
+#titulomayor {
+    font-size: 80px;
+    color: white;
+    background-color: red;
+    border: 15px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    flex: 1;
+}
+
+#america a {
+    background-color: yellow;
+    border: 5px solid blue;
+    color: black;
+    font-size: 30px;
+}
+
+#rayados a {
+    background-color: white;
+    border: 5px solid blue;
+    color: black;
+    font-size: 30px;
+}
+
+#tigres a {
+    background-color: blue;
+    border: 5px solid yellow;
+    color: white;
+    font-size: 30px;
+}
+
+#mejorclub a {
+    background-color: black;
+    border: 5px solid white;
+    color: white;
+    font-size: 25px;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+#sanluiss {
+    color: red;
+    background-color: white;
+    border: 5px solid blue;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#mejorclub {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mejorclub img,
+#mejorclub audio {
+    width: 100%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    color: red;
+    background-color: white;
+    border: dashed 10px;
+    font-weight: bold;
+}
+
+#contenedor-imagenes {
+    width: 100%;
+}
+
+#memessanluis img {
+    width: calc(100% / 3);
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#aclaracion {
+    font-size: 15px;
+}
+
+section {
+    text-align: center;
+}
+
+section img {
+    height: 60vh;
+    width: 100%; 
+    display: block;
+    margin: auto;
+}
+
+table {
+    margin: 0 auto;
+    border: 5px black;
+    width: 100%; 
+}
+
+th, td {
+    padding: 10px;
+    border: 5px solid blue;
+}
+
+thead {
+    font-weight: bold;
+    background-color: red;
+}
+
+tbody {
+    background-color: white;
+}
+
+address {
+    text-align: left;
+    font-size: 25px;
+}

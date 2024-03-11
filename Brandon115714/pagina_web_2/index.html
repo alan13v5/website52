@@ -1,17 +1,4 @@
-<!-- PROYECTO WEB
-desarrolla un sitio web del tema de su preferencia
-
-crear 5 documentos html (uno de ellos tendra el nombre de index.html)
-1- incluir tabla
-2- incluir formulario
-3- usar todas las restantes etiquetas por lo menos una vez
-4- integrar links para navegar en el sitio
-5- se tienen que registrar en su proyecto por lo menos 5 commits 
-para el lunes 19 de febrero 2024 11:55pm
-
-utilizar github para ponerlo en un repositorio
-
-git config --global user.name "Brandon Capistran Moya"
+<!-- git config --global user.name "Brandon Capistran Moya"
 git config --global user.email dinosauriocapi@hotmail.com
 git add index.html
 git status
@@ -45,30 +32,32 @@ git status
         <h1>LA HISTORIA DE LOS VIDEOJUEGOS</h1>
     </header>
     <h2>EPOCAS DE LOS VIDEOJUEGOS</h2>
-    <ol>
+    <ol id="menu">
         <li><a href="1950_1970.html">1950-1970</a></li>
         <li><a href="1980_1990.html">1980-1990</a></li>
         <li><a href="1990_2000.html">1990-2000</a></li>
-        <li><a href="2000_present.html">2000-actualidad</a></li>
+        <li><a href="2000_presente.html">2000-actualidad</a></li>
     </ol>
     
     <article>
-        <h2>Que es un videojuego?</h2>
+        <h3>Que es un videojuego?</h3>
         <p>Daremos inicio con la pregunta <i>sobre que es un videojuego?</i>, un videojuego <b>es un software o juego electronico en el que uno o mas usuarios que en este caso se les llamada jugadores interactuan por medio de un controlador, con un dispositivo electronico que muestra imagenes de video</b> , en nuestra actualidad han existido a lo que se les conoce como plataformas, las cuales puede ser desde una computadora, incluso un telefono celular es considerado tambien una plataforma ya que con el avance de las nuevas tecnologias los telefonos son mas capaces de soportar videojuegos y poder jugar sin necesidad de tener que comprar una plataforma especifica</p>
 
         <img id="imagen" src="imagenes/consolas.jpg" alt="mano con un control y alrededor con dispositivos para jugar videojuegos">
-        <img src="imagenes/consola_teclado.jpg" alt="">
+        <img id="imagen_derecha" src="imagenes/consola_teclado.jpg" alt="">
 
-        <h2>Etapas de los videojuegos</h2>
+        <h3>Etapas de los videojuegos</h3>
         <p>Como es claro, todo invento o todo proyecto tiene un inicio, el inicio de la historia de los videojuegos no tiene pocos años desde el primer videojuego, por lo mismo podemos llegar a separar toda sus historia en distintas etapas, ya que en comparacion con el primer videojuego de la historia a los juegos mas recientes actualmente o los mas destacados, existe una clara diferencia tanto visual para los jugadores, como compleja para lo desarrolladores que trabajaron para crear el videojuego</p>
 
         <h3>Consolas de videojuegos</h3>
         <p>A lo largo de toda su historia no solamente los videojuegos han tenido un cambio impresionante, si no el desarrollo de nuevas plataformas o consolas para poder hacer que los nuevos videojuegos puedan ser capaces de iniciarse. A continuacion se muestra algunas de las consolas mas influyentes a lo largo de los años:</p>
 
         <img id="imagen" src="imagenes/consola_teclado.jpg" alt="control de xbox arriba de un teclado">
+
+        <h3 id="titulo_tabla">Caracteristicas de algunas consolas</h3>
         <table>
             <thead>
-                <tr>
+                <tr class="encabezados_tablas">
                     <th>CONSOLA</th>
                     <th>FABRICANTE</th>
                     <th>AÑO DE LANZAMIENTO</th>

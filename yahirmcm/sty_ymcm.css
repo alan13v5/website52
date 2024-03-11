@@ -1,0 +1,28 @@
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+a {
+    background-color: rgb(235, 159, 105) ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.repalum {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
