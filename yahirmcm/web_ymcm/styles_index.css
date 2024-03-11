@@ -102,7 +102,7 @@ body{
 .gritem{
     background-color: #e2f7f2;
     border: 1px solid;
-    padding: 20px;
+    padding: 12px;
     font-size: 20px;
     font-family: Arial;
     text-align: center;
@@ -112,7 +112,7 @@ body{
 .gritemencabezado{
     background-color: #146551;
     border: 2px solid black;
-    padding: 20px;
+    padding: 14px;
     font-size: 20px;
     font-family: Arial;
     text-align: center;
