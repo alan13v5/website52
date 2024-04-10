@@ -1,0 +1,44 @@
+h1 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(60, 60, 105);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+h2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(92, 92, 146);
+    border: 1px solid rgb(180, 180, 231);
+    border-radius: 10px;
+}
+
+h3 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(92, 92, 146);
+    border: 1px solid rgb(180, 180, 231);
+    border-radius: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    color: rgb(47, 50, 83);
+}
+
+a {
+    color: rgb(47, 50, 83);
+}
+
+hr {
+    border: 1px solid rgb(79, 79, 112);
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(195, 195, 255);
+}
