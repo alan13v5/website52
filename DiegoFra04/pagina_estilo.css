@@ -1,33 +1,66 @@
 section{
     display: flex;
+    align-content: center;
+    align-items: center;
     background-color: #3c3c3c;
     padding: 20px;
     border: 8px dotted white;
-    height: 380px;
+    height: 390px;
     flex-wrap: wrap;
     margin: 20px;
 }
 
+
 .f1{
     border:3px solid white;
-    width: 541px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: lightcoral;
+} 
+
+.f2{
+    border:3px solid white;
+    width: 239px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: lightcoral;
-    background-color: lig;
-} 
+}  
 
-.f2{
+.f3{
     border:3px solid white;
-    width: 541px;
-    height: 100px;
+    width: 500px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: lightskyblue;
-}  
+} 
+.f4{
+    border:3px solid white;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+} 
+.f5{
+    border:3px solid white;
+    width: 500px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+} 
+
+
 
 main{
     display: flex;
@@ -39,23 +72,36 @@ main{
 
 /*El fondo lo saque de esta pagina(solo el diseño del fondo): https://cssgradient.io/ */
 body{
-    
     background: rgb(173,216,230);
     background: linear-gradient(236deg, rgba(173,216,230,1) 50%, rgba(0,1,4,1) 50%, rgba(240,128,128,1) 51%);
 }
 /* ------------------------------------------------------------------------ */
-h3{
+h4{
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
-h2{
+h3{
     text-align: center;
     color: goldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    border:3px solid black;
+    background-color: goldenrod;
+    text-align: center;
+    color: black;
 }
 
 h1{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    height: 50px;
+    color: black;
+    background-color: grey;
 }
 
