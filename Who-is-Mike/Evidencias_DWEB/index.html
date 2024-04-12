@@ -22,7 +22,30 @@
     </header>
     <hr>
     <main>
-        <img class="facu" src="facpya1.jpg" alt="La Facultad"> 
+    <div class="carrusel">
+        <img src="facpya1.jpg" alt="La Facultad">
+        <img src="dante1.jpg" alt="">
+        <img src="hacer zoom.jpeg" alt="">
+    </div>  
+
+    <style>
+    .carrusel {
+        white-space: nowrap;
+        overflow: hidden;
+        animation: carrusel 10s linear infinite;
+    }
+    @keyframes carrusel {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+
+    div > img {
+        width: 33%;
+        height: 350px;
+        border: 16px;
+    }
+    </style>
+
         <br>
         <p class="e">Misión de la facultad</p>
             <p>Formar profesionales en el ámbito de los negocios que contribuyan al desarrollo socio económico de la región y del país, a través de programas educativos de calidad que les brinden las competencias críticas para desenvolverse en escenarios globales, así como fortalecer la investigación orientada a la generación del conocimiento en nuestras disciplinas, cultivando en su comunidad el espíritu innovador, ético y socialmente responsable.</p>

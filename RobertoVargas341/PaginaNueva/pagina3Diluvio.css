@@ -1,0 +1,59 @@
+/* EDITAR HEADER */
+.mi-header {
+    background-image: url('image/pagina3fondo.jpg'); 
+    background-size: cover; 
+    color: white; 
+    text-align: center; 
+    padding: 100px 0; 
+}
+
+.texto-encima {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px; 
+}
+
+.texto-encima h1 {
+    font-size: 2.5em; 
+}
+
+/*  AQUI TERMINA LA EDICION DEL HEADER */
+
+
+
+body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto 600px;
+    grid-gap: 4em;
+    justify-content:space-around;
+    background-color: powderblue;
+}
+
+footer{
+    grid-column: 3/-3;
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    width: 97%; 
+    bottom: 0;
+}
+
+header{
+    grid-column: 1/-1;
+}
+
+aside {
+    background-color:gainsboro; 
+    padding: 25px; 
+    border: 1px solid #ccc; 
+    width: 250px; 
+    border-radius: 15px;
+}
+
+section{
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    display: inline;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Suma</title>
+  <style>
+    /* Estilos para el diseño básico de la calculadora */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .calculator {
+      width: 300px;
+      margin: 50px auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    input[type="text"], input[type="button"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="calculator">
+  <h2>App Suma</h2>
+  <input type="text" id="num1" placeholder="Número 1">
+  <input type="text" id="num2" placeholder="Número 2">
+  <input type="button" value="Sumar" onclick="sumar()">
+  <input type="text" id="resultado" placeholder="Resultado" disabled>
+</div>
+
+<script src="apps10abril.js"></script>
+</body>
+</html>

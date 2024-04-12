@@ -240,3 +240,58 @@ figure {
 .con1 {
     background-color: rgb(124, 109, 23);
 }
+
+.fb {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.merch {
+    background-color: black;
+    color: rgb(165, 142, 14);
+    text-align: center;
+}
+
+.merch1 {
+    background-color: rgb(165, 142, 14);
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.merch2 {
+    font-size: larger;
+    text-align: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+
+div ul {
+    text-align: center;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+}
+
+.forma label {
+    margin-bottom: 1px;
+}
+
+.forma input {
+    width: 200px;
+    margin-bottom: 1px;
+}
+
+address {
+    text-align: right;
+}

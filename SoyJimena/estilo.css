@@ -1,0 +1,50 @@
+body {
+    background-color: #f0efeb;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 400px;
+    color: #03045e;
+}
+
+h3{
+    text-align: center;
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 400px;
+    color: #081c15;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+#ev1, #ev2 {
+    margin: 0 auto 20px;
+    width: 300px; 
+    height: 200px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+#ev1 {
+    background-color: #bcd4e6;
+}
+
+#ev2 {
+    background-color: #C5DEDD;
+}
