@@ -13,5 +13,5 @@ btnVerficar.addEventListener("click", e => {
     }
 
     else
-        resultado.value = "Puedes Votar!";
+        resultado.value = "Puedes Votar";
 })
