@@ -6,7 +6,7 @@ header {
     text-align: center;
     font-style: italic;
     font-size: large;
-    color: rgb(97, 87, 30);
+    color: rgb(202, 172, 0);
 }
 
 a {
@@ -20,7 +20,8 @@ nav {
     justify-content: space-evenly;
     font-style: italic;
     font-size: larger;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(102, 95, 31);
+    border-radius: 10px;
     margin: 4px;
     padding: 1rem;
 }
@@ -28,8 +29,269 @@ nav {
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
-h2 {
+.titulo {
+    color: rgb(199, 180, 15);
+    background-color: black;
     text-align: center;
+}
+
+.titulo2 {
+    background-color: rgb(199, 180, 15);
+    text-align: center;
+}
+
+iframe {
+    border: 5px solid rgb(160, 131, 4);
+}
+
+.discos {
+    text-align: center;
+    color: rgb(145, 145, 23);
+}
+
+.p1 {
+    background-color: rgb(128, 109, 2);
+    color: white;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.disco1 {
+    margin: 5px 20px;
+    background-color: rgb(47, 180, 47);
+    color: white;
+    padding: 10px;
+}
+
+.disco2 {
+    margin: 5px 20px;
+    background-color: rgb(219, 205, 8);
+    color: white;
+    padding: 10px;
+}
+
+.disco3 {
+    margin: 5px 20px;
+    background-color: rgb(121, 2, 201);
+    color: white;
+    padding: 10px;
+}
+
+.disco4 {
+    margin: 5px 20px;
+    background-color: rgb(221, 9, 9);
+    color: white;
+    padding: 10px;
+}
+
+.disco5 {
+    margin: 5px 20px;
+    background-color: rgb(78, 110, 255);
+    color: white;
+    padding: 10px;
+}
+
+.disco6 {
+    margin: 5px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+}
+
+.disco7 {
+    margin: 5px 20px;
+    background-color: rgb(252, 114, 222);
+    color: white;
+    padding: 10px;
+}
+
+.disco8 {
+    margin: 5px 20px;
+    background-color: rgb(203, 204, 151);
+    color: white;
+    padding: 10px;
+}
+
+.disco9 {
+    margin: 5px 20px;
+    background-color: rgb(110, 82, 4);
+    color: white;
+    padding: 10px;
+}
+
+.disco10 {
+    margin: 5px 20px;
+    background-color: rgb(211, 197, 5);
+    color: white;
+    padding: 10px;
+}
+
+.disco11 {
+    margin: 5px 20px;
+    background-color: rgb(179, 7, 7);
+    color: white;
+    padding: 10px;
+}
+
+.disco12 {
+    margin: 5px 20px;
+    background-color: rgb(42, 48, 75);
+    color: white;
+    padding: 10px;
+}
+
+.disco13 {
+    margin: 5px 20px;
+    background-color: rgb(185, 85, 177);
+    color: white;
+    padding: 10px;
+}
+
+.disco14 {
+    margin: 5px 20px;
+    background-color: rgb(66, 93, 250);
+    color: white;
+    padding: 10px;
+}
+
+.disco15 {
+    margin: 5px 20px;
+    background-color: rgb(83, 88, 83);
+    color: white;
+    padding: 10px;
+}
+
+.premios {
+    text-align: center;
+    color: rgb(146, 122, 15);
+}
+
+.info {
+    margin: 10px 15px;
+}
+
+.lista1 {
+    border: 2px solid rgb(102, 95, 31);
+    border-radius: 5px;
+    margin: 20px 15px;
+    padding: 30px;
+}
+
+aside {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(221, 182, 10);
+}
+
+td {
+    background-color: rgb(240, 231, 182);
+}
+
+.win {
+    background-color: rgb(70, 243, 70);
+}
+
+.nom {
+    background-color: rgb(255, 68, 68);
+}
+
+.tours {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 114, 24);
+}
+
+figure {
+    text-align: right;
+}
+
+.concierto1 {
+    margin: 20px 50px;
+    font-size: medium;
+}
+
+.listaconcierto {
+    margin: 20px 50px;
+    border: 2px solid rgb(124, 109, 23);
+    background-color: rgb(124, 109, 23);
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.con1 {
+    background-color: rgb(124, 109, 23);
+}
+
+.fb {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.merch {
+    background-color: black;
+    color: rgb(165, 142, 14);
+    text-align: center;
+}
+
+.merch1 {
+    background-color: rgb(165, 142, 14);
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.merch2 {
+    font-size: larger;
+    text-align: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+
+div ul {
+    text-align: center;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+}
+
+.forma label {
+    margin-bottom: 1px;
+}
+
+.forma input {
+    width: 200px;
+    margin-bottom: 1px;
+}
+
+address {
+    text-align: right;
 }
