@@ -1,0 +1,72 @@
+/* EDITAR HEADER */
+.mi-header {
+    background-image: url('image/pagina4fondo.jpg');
+    background-size: cover; 
+    color: white; 
+    text-align: center; 
+    padding: 80px 0;
+
+}
+
+.texto-encima {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+}
+
+.texto-encima h1 {
+    font-size: 2.5em; 
+}
+
+.texto-encima p{
+    font-size: 1em;
+}
+
+/*  AQUI TERMINA LA EDICION DEL HEADER */
+
+body{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1px;
+    grid-gap: 4em;
+    justify-content:space-around;
+    background-color:navajowhite;
+}
+
+
+footer{
+    grid-column: 3/-3;
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    width: 97%; 
+    bottom: 20; 
+}
+
+header{
+    grid-column: 1/-1;
+}
+
+/* ESTE CODIGO LO USE PARA FLOTAR LA IMAGEN EN EL ARTIULO */
+article IMG{ 
+    width: 500px;
+    float:right;
+    margin-left: 3em;
+    border-radius: 20px;
+}
+
+aside img{
+    border-radius: 20px;
+}
+
+/* EDITAR TABLA*/
+table td {
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color:darkgrey;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+
