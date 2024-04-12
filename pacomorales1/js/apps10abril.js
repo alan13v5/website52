@@ -1,5 +1,4 @@
 /*  Codigo para la app de sumas */
-
 const num1 = document.getElementById("num1");
 const num2 = document.getElementById("num2");
 const suma = document.getElementById("suma");

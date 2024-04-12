@@ -1,3 +1,4 @@
+
 const edad = document.getElementById("edad");
 const resultado = document.getElementById("resultado");
 const btnVerificar = document.getElementById("btnVerificar")
