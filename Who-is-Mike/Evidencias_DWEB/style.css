@@ -53,9 +53,6 @@ li a:hover {
     justify-content: center;
 }
 
-.body_carreras{
-background-color: indianred;
-}
 
 .body_evento{
     background-image: url(facpya1.jpg);
@@ -91,7 +88,9 @@ imagen2{
 /* este para selectores de lista */
 /* h1,.e {background-color: gray;} */
 
-
+.A1{
+    background-color: #008ed6;
+}
 
 header {
     background-color: cadetblue;
@@ -114,10 +113,31 @@ header {
     align-self: center;
 }
 
+.item_A {
+    grid-area: article;
+}
+.item_b{
+    grid-area: sidebar;
+}
+.item_c{
+    grid-area: footer;
+}
+.item_d {
+    grid-area: header;
+}
+.item_e {
+    grid-area: main;
+}
 .body_articulo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-
+    grid-template-columns: [first] 75% [end] 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "article sidebar"
+    "footer footer";
+    gap: 25px;
 }
 
 .profile-card{

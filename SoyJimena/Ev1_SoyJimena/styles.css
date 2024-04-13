@@ -197,3 +197,27 @@ h3.tv {
     margin-top: 20px;
     color:#2f4550; 
 }
+
+h1.tapm,
+h2.t2 {
+    margin: 1px;
+    padding: 0;
+}
+
+h1.tapm {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px;
+}
+
+h2.t2 {
+    background-color: #2f4550;
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+

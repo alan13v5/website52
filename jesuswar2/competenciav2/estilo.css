@@ -132,3 +132,26 @@ article > h2 {
 .body4{
     background-color: aquamarine;
 }
+
+#f3{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 10px;
+    grid-template-rows: auto ;
+    grid-template-areas: "l r"
+                         "l r";
+}
+
+.left{
+    grid-area: l;
+    justify-content: left;
+    margin: 3em;
+}
+.rig{
+    grid-area: r;
+    display: flex;
+    justify-self: center;
+    flex-flow: column;
+    margin: auto;
+    border: 1px solid black;
+}
