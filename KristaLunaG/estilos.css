@@ -53,6 +53,14 @@ h1 {
     color: #046582;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 2em;
+    color: #046582;
+}
+
 .contorno-letras {
     text-shadow:
         -1px -1px 0 white,  
