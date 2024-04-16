@@ -1,0 +1,26 @@
+.contenedor {
+    max-width: 740px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #080940;
+}
+
+#btnEjecutar {
+    width: 35%;
+    padding: 10px; 
+    background-color: #6b0e17;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
