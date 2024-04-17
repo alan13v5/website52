@@ -1,0 +1,133 @@
+#titulomayor {
+    font-size: 80px;
+    color: white;
+    background-color: red;
+    border: 15px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    flex: 1;
+}
+
+#america a {
+    background-color: yellow;
+    border: 5px solid blue;
+    color: black;
+    font-size: 30px;
+}
+
+#rayados a {
+    background-color: white;
+    border: 5px solid blue;
+    color: black;
+    font-size: 30px;
+}
+
+#tigres a {
+    background-color: blue;
+    border: 5px solid yellow;
+    color: white;
+    font-size: 30px;
+}
+
+#mejorclub a {
+    background-color: black;
+    border: 5px solid white;
+    color: white;
+    font-size: 25px;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+body {
+    background-color: yellow;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+#americaa {
+    color: blue;
+    background-color: rgb(192, 180, 7);
+    border: 5px solid red;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#america {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#america img,
+#america audio {
+    width: 100%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    color: blue;
+    font-weight: bold;
+}
+
+
+section {
+    text-align: center;
+}
+
+section img {
+    height: 60vh;
+    width: 100%; 
+    display: block;
+    margin: auto;
+}
+
+table {
+    margin: 0 auto;
+    border: 5px black;
+    width: 100%; 
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+thead {
+    font-weight: bold;
+    background-color: aqua;
+}
+
+tbody {
+    background-color: aquamarine;
+}
+
+address {
+    text-align: left;
+    font-size: 25px;
+}
