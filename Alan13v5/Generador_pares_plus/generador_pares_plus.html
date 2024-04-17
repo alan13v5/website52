@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Pares Plus</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px auto;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Generador de Pares Plus</h1>
+    <p>Introduce un rango de números para generar una serie de pares plus:</p>
+    <input type="number" id="start" placeholder="Inicio del rango" required>
+    <input type="number" id="end" placeholder="Fin del rango" required>
+    <button onclick="generarParesPlus()">Generar Serie</button>
+    <div id="result"></div>
+  </div>
+  <script src="generador_pares_plus.js"></script>
+</body>
+</html>
+
