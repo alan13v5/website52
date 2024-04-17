@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            margin-right: 10px; 
+            
+        }
+
+        aside {
+            flex: 0 0 300px;
+            padding: 20px;
+            background-color: #eed0d0;
+            border-left: 1px solid #0e0d0d;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+    <h1>Calculadora 15 Abril</h1>
+    <form action="">
+        <div>
+            <label for="numero1">Numero uno</label>
+            <input type="text" name="numero1" id="numero1">
+        </div>
+        <div>
+            <label for="numero2">Numero dos</label>
+            <input type="text" name="numero2" id="numero2">
+        </div>
+
+        <div>
+            <label for="operacion">Operación</label>
+            <input type="text" name="operacion" id="operacion">
+        </div>
+        <div>
+            <label for="resultado">Resultado</label>
+            <input readonly name="resultado" id="resultado">
+        </div>
+        <div>
+            <input id="btncalcular" type="submit" value="Calcular">
+        </div>
+    </form>
+    </main>
+    <aside>
+        <p>Poner los siguientes símbolos en el recuadro de (operación) para calcular:</p>
+        <p> + : Suma</p>
+        <p> - : Resta</p>
+        <p> * : Multiplicación</p>
+        <p> / : División</p>
+        <p>Solo se aceptan esos 4 caracteres</p>
+    </aside>
+
+    <script src="calculadora15abril.js"></script>
+</body>
+</html>
