@@ -1,4 +1,4 @@
-/* ----------------------------------------------- Problema en clase ---------------------------------------------- */
+/* ----------------------------------------------- Problema 2-------- ---------------------------------------------- */
 
 const edad = document.getElementById("edad");
 const resultado = document.getElementById("resultado");
