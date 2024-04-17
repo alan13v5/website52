@@ -1,0 +1,52 @@
+<!-- switch: Estructura condicional, se utiliza cuando se
+    necesita ejecutar varios bloques de código dependiendo
+    del valor que tenga una variable.
+
+    switch (num) {
+        case 1: codigo aqui
+                ...
+                break;
+        case 2: codigo aqui
+                ...
+                break;
+        default:
+        codigo aqui
+    } -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascript</title>
+    </head>
+    <body>
+        <h1>17 abril</h1>
+        <form action="">
+            <div>
+                <label for="num1">Numero uno:</label>
+                <input type="text" name="num1" id="num1">
+            </div>
+            <div>
+                <label for="num2">Numero dos:</label>
+                <input type="text" name="num2" id="num2">
+            </div>
+            <div>
+                <label for="operacion">Operacion</label>
+                <input type="text" name="operacion" id="operacion">
+            </div>
+            <div>
+                <label for="resultado">Resultado</label>
+                <input readonly type="text" name="resultado" id="resultado">
+            </div>
+            <div>
+                <label for="btnCalcular"></label>
+                <input id="btnCalcular" type="button" value="Calcular">
+            </div>
+        </form>
+        <p> <b>Usar cualquiera de los siguientes valores en "operacion":</b>
+            <b>"+", "-", "*", "/"</b>
+        </p>
+        <script src="apps17abril.js"></script>
+    </body>
+    </html>
