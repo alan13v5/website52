@@ -14,5 +14,4 @@ btnverificar.addEventListener("click", e => {
         resultado.value = "Si puede votar"
     }
 
-
 })
