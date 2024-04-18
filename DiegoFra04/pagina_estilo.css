@@ -24,7 +24,7 @@ section{
 
 .f2{
     border:3px solid white;
-    width: 239px;
+    width: 267px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@ section{
 .f3{
     border:3px solid white;
     width: 500px;
-    height: 80px;
+    height: 23px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,9 +64,9 @@ section{
 
 main{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 
 }
 
