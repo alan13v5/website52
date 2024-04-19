@@ -17,5 +17,5 @@ btngenerar.addEventListener("click", e => {
             seriefinal = seriefinal + i + ",";
         }
     }
-    serie.value = seriefinal.slice(0, -1); 
+    serie.value = seriefinal; 
 });
