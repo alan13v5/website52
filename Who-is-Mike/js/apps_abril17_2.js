@@ -1,29 +1,22 @@
-const num1 = document.getElementById("Num1");
-const num2 = document.getElementById("Num2");
-const operacion = document.getElementById("Opr");
-const resultado = document.getElementById("reslt");
-const btnCalcular = document.getElementById("btnCalcular");
+/* 
+Ciclo for (Sintaxis)
+    for (_________ ; _________ ; ___________) {
+        codigo aqui
+        …
+    };  
+*/
 
-btnCalcular.addEventListener("click", (e) => {
+/* 
+Cuando el usuario de clic al boton 
+mandar a la consola los siguientes numeros:
+   2, 4, 6, ..., 1000000
+*/
+
+boton = document.getElementById("btnget");
+   
+boton.addEventListener("click", e => {
     e.preventDefault();
-    
-    let n1 = parseFloat(num1.value);
-    let n2 = parseFloat(num2.value);
-    let o = operacion.value; let r;
-    switch (o) {
-        case "+": r = n1 + n2;
-                resultado.value = r;
-                break;
-        case "-" : r = n1 - n2;
-                resultado.value = r;
-                break;
-        case "*" : r = n1 * n2;
-                resultado.value = r;
-                break;
-        case "/" : r = n1 / n2;
-                resultado.value = r;
-                break;
-        default:
-            resultado.value = "Error en la operación";
-    }
+    for (let i=2; i<1000000;i+=2){
+        console.log(i);
+    }
 });
