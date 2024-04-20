@@ -6,9 +6,9 @@ const Operacion = document.getElementById("btnOperacion")
 
 Operacion.addEventListener("click", e => {
     e.preventDefault();
-    const valor1 = parseInt(num1.value);
-    const valor2 = parseInt(num2.value);
-    const oper = operador.value.trim();
+    const valor1 = parseInt(Num1.value);
+    const valor2 = parseInt(Num2.value);
+    const oper = Operador.value.trim();
     /* SUMA */
     if (oper == "+" ) {
         res = valor1 + valor2

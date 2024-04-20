@@ -22,7 +22,7 @@ btnResult.addEventListener("click", (e) => {
     }
 
     else{
-        resultado.value = "Agregue un simbolo correcto"
+        resultado.value = "simbolo incorrecto"
     
     }
 
