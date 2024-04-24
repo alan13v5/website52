@@ -1,0 +1,43 @@
+.contenedor { color: beige;
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 4px dotted #ffffff;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+input[type="text"] {
+    width: 250px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#btnVer {
+    width: 50%;
+    padding: 10px; 
+    background-color: #830909;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-style: oblique;
+}

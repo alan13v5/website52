@@ -1,0 +1,36 @@
+.contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #3c2277;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 250px; 
+    padding: 10px;
+    border: 1px solid #3b8c8a;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#btnOperacion {
+    width: 100%;
+    padding: 10px; 
+    background-color: #dfe5eb;
+    border: none;
+    border-radius: 5px;
+    color: #d11b1b;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; 
+}

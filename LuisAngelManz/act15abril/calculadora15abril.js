@@ -4,7 +4,7 @@ const operacion = document.getElementById("operacion");
 const resultado = document.getElementById("resultado")
 const btncalcular = document.getElementById("btncalcular");
 
-btncalcular = addEventListener("click", e => {
+btncalcular.addEventListener("click", e => {
     e.preventDefault();
 
    if(operacion.value =="+"){
