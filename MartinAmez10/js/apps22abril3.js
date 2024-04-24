@@ -10,12 +10,9 @@ btnVer.addEventListener("click", e => {
 
     for (let num = 2; num <= limite; num++) {
         let sumaDivisores = 1;
-        for (let i = 2; i <= Math.sqrt(num); i++) {
+        for (let i = 2; i <= num / 2; i++) {
             if (num % i === 0) {
                 sumaDivisores += i;
-                if (i !== num / i) {
-                    sumaDivisores += num / i;
-                }
             }
         }
 
