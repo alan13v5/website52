@@ -1,17 +1,10 @@
 .contenedor {
-    max-width: 400px;
+    max-width: 225px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #6721f5;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
-
-label {
-    display: inline-block;
-    width: 100px;
-    margin-bottom: 10px;
-    font-weight: bold;
+    border: 4px dottED(300, 300, 300)ccc;
+    border-radius: 20px;
+    background-color: #1f67e4;
 }
 
 input[type="text"] {
@@ -23,13 +16,13 @@ input[type="text"] {
     margin-bottom: 10px;
 }
 
-#btnComprobar {
+#btnGenerar {
     width: 100%;
     padding: 10px; 
-    background-color: #0c43b9;
+    background-color: #ffffff;
     border: none;
     border-radius: 5px;
-    color: #fff;
+    color: #0e0000;
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px; 
@@ -38,5 +31,5 @@ input[type="text"] {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: #0e0e0e;
 }
