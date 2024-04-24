@@ -24,9 +24,8 @@ h3 {
 
 ul {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     color: rgb(47, 50, 83);
 }
 
