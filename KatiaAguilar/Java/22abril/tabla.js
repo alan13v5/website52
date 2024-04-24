@@ -18,6 +18,6 @@ boton.addEventListener("click", e =>{
         lista.appendChild(item);
 
         i++;
-    }while(i <= 100);
+    }while(i <= 10);
 
 });
