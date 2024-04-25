@@ -17,7 +17,7 @@ label {
 input[type="text"] {
     width: 110px; 
     padding: 10px;
-    border: 3px solid #9b0f0f;
+    border: 3px solid #000000;
     border-radius: 10px;
     font-size: 16px;
     margin-bottom: 10px;
@@ -26,7 +26,7 @@ input[type="text"] {
 #btnOperacion {
     width: 50%;
     padding: 10px; 
-    background-color: #1049a3;
+    background-color: #09234d;
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -38,5 +38,5 @@ input[type="text"] {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #1ad42a;
+    color: #f8f8f8;
 }

@@ -1,5 +1,5 @@
-const edad = document.getElementById("Edad")
-const resultado = document.getElementById("Resultado")
+const edad = document.getElementById("edad")
+const resultado = document.getElementById("resultado")
 const btnComprobar = document.getElementById("btnComprobar")
 
 
