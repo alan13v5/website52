@@ -2,7 +2,7 @@
     max-width: 300px;
     margin: 60px auto;
     padding: 30px;
-    border: 2px solid #0a1884;
+    border: 2px solid #0a043d;
     border-radius: 20px;
     background-color: #ffffff;
 }
@@ -17,7 +17,7 @@ label {
 input[type="text"] {
     width: 85px; 
     padding: 10px;
-    border: 5px solid #2c088e;
+    border: 5px solid #000000;
     border-radius: 10px;
     font-size: 16px;
     margin-bottom: 10px;
@@ -26,10 +26,10 @@ input[type="text"] {
 #btnSumar {
     width: 100%;
     padding: 10px; 
-    background-color: #0e25d4;
+    background-color: #ffffff;
     border: none;
     border-radius: 10px;
-    color: #ffffff;
+    color: #ff0101;
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px; 
@@ -38,5 +38,11 @@ input[type="text"] {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #281a8f;
+    color: #c3c3c3;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
 }
