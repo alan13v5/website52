@@ -23,4 +23,11 @@ btnVer.addEventListener("click", e => {
         }
         cant++;
     };
+
+    lista.innerHTML = "";
+    for (let i = 0; i<numPer.length; i++){
+        let item = document.createElement("li");
+        item.textContent = numPer[i];
+        lista.appendChild(item);
+    };
 });
