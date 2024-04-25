@@ -8,7 +8,7 @@ boton.addEventListener("click", e => {
     const np = parseInt(num.value);
     let num=1;
     let encontrados=0;
-
+    
     while(encontrados<np){
         if(encontrados==0){
             lista.innerHTML="";
