@@ -1,0 +1,35 @@
+.contenedor {
+    max-width: 225px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 4px dottED(300, 300, 300)ccc;
+    border-radius: 20px;
+    background-color: #1f67e4;
+}
+
+input[type="text"] {
+    width: 250px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#btnGenerar {
+    width: 100%;
+    padding: 10px; 
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #0e0000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0e0e0e;
+}

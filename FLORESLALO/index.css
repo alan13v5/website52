@@ -1,0 +1,57 @@
+
+.evidencia1 {
+    background-color: #fa8920;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.evidencia1 h1 {
+    color: #ffffff;
+}
+.evidencia1 {font-size: x-large;}
+
+.evidencia1 h2 {
+    color: #ffffff;
+}
+
+.evidencia1 h3 {
+    color: #ffffff;
+}
+
+.evidencia1 h4 {
+    color: #ffffff;
+}
+
+.evidencia1 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.evidencia1 ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para la evidencia 2 */
+.evidencia2{font-size: x-large;}
+.evidencia2 {
+    background-color: #e6f7ff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.evidencia2 h1 {
+    color: #007bff;
+}
+
+.evidencia2 h2 {
+    color: #0056b3;
+}
+
+.evidencia2 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.evidencia2 ul li {
+    margin-bottom: 5px;
+}

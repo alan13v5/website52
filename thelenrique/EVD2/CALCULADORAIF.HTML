@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Calculadora Básica</h2>
+
+Primer cifra: <input id="num1" type="number"><br>
+Segunda cifra: <input id="num2" type="number"><br>
+Operacion (+, -, /, *): <input id="op" type="text"><br>
+<button onclick="calcular()">Calcular</button><br>
+Resultado: <p id="resultado"></p>
+
+<script>
+function calcular() {
+  var num1 = document.getElementById('num1').value;
+  var num2 = document.getElementById('num2').value;
+  var op = document.getElementById('op').value;
+  var resultado;
+
+  if (op == '+') {
+    resultado = Number(num1) + Number(num2);
+  } else if (op == '-') {
+    resultado = num1 - num2;
+  } else if (op == '*') {
+    resultado = num1 * num2;
+  } else if (op == '/') {
+    resultado = num1 / num2;
+  } else {
+    resultado = 'Operación no válida';
+  }
+
+  document.getElementById('resultado').innerHTML = 'Resultado: ' + resultado;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+.contenedor { color: #fff;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 10px dotted #ffffff;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+input[type="text"] {
+    width: 150px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#btnCalcular {
+    width: 100%;
+    padding: 10px; 
+    background-color: #681313;
+    border: solid;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff7f7;
+    font-style: oblique;
+}
